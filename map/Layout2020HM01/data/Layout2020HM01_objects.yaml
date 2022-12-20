@@ -1,0 +1,1028 @@
+location_pose:
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition11",
+        frame_id: "map",
+        translation_x: 8.75580024719,
+        translation_y: -1.56100010872,
+        translation_z: 0.759699821472,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -8.74227765735e-08,
+        rotation_w: -1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition12",
+        frame_id: "map",
+        translation_x: 8.76910018921,
+        translation_y: -1.08400011063,
+        translation_z: 0.759699821472,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.00349059188738,
+        rotation_w: -0.999993920326,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition13",
+        frame_id: "map",
+        translation_x: 8.75589942932,
+        translation_y: -1.16930007935,
+        translation_z: 0.349599838257,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -8.74227765735e-08,
+        rotation_w: -1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition14",
+        frame_id: "map",
+        translation_x: 8.75479984283,
+        translation_y: 0.532999992371,
+        translation_z: 0.349599838257,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -8.74227765735e-08,
+        rotation_w: -1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition15",
+        frame_id: "map",
+        translation_x: 8.76300048828,
+        translation_y: -0.0380001068115,
+        translation_z: 0.760000228882,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -8.74227765735e-08,
+        rotation_w: -1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition16",
+        frame_id: "map",
+        translation_x: 8.75880050659,
+        translation_y: -0.459499835968,
+        translation_z: 0.760000228882,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.123601548374,
+        rotation_w: -0.992331922054,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition17",
+        frame_id: "map",
+        translation_x: 6.73199987411,
+        translation_y: 1.27799999714,
+        translation_z: 0.905300140381,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition18",
+        frame_id: "map",
+        translation_x: 6.72799968719,
+        translation_y: 0.204999923706,
+        translation_z: 0.904999732971,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: -0.707106769085,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen#GraspingCandidatesPosition19",
+        frame_id: "map",
+        translation_x: 6.74199962616,
+        translation_y: 2.17700004578,
+        translation_z: 0.905300140381,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.70710670948,
+        rotation_w: -0.70710682869,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom",
+        frame_id: "map",
+        translation_x: 0.0240883827209,
+        translation_y: 6.95143413544,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition25",
+        frame_id: "map",
+        translation_x: -0.801000118256,
+        translation_y: 3.14699983597,
+        translation_z: 0.545000076294,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition24",
+        frame_id: "map",
+        translation_x: 1.8599998951,
+        translation_y: 0.340000033379,
+        translation_z: 0.79540002346,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: -0.707106769085,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition27",
+        frame_id: "map",
+        translation_x: 1.89499998093,
+        translation_y: 2.48229980469,
+        translation_z: 0.79540002346,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.70710670948,
+        rotation_w: -0.70710682869,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition26",
+        frame_id: "map",
+        translation_x: 1.51699995995,
+        translation_y: 1.8639998436,
+        translation_z: 0.795000016689,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: -0.707106769085,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition21",
+        frame_id: "map",
+        translation_x: 3.41300010681,
+        translation_y: 2.46600008011,
+        translation_z: 0.795000076294,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.731948494911,
+        rotation_w: -0.681359946728,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition23",
+        frame_id: "map",
+        translation_x: -0.815999984741,
+        translation_y: 4.08699989319,
+        translation_z: 0.545000076294,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition22",
+        frame_id: "map",
+        translation_x: 3.36199998856,
+        translation_y: 0.356999993324,
+        translation_z: 0.79540014267,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: -0.707106769085,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition29",
+        frame_id: "map",
+        translation_x: -0.52999997139,
+        translation_y: -1.78100013733,
+        translation_z: 0.674000024796,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.70710670948,
+        rotation_w: -0.70710682869,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition28",
+        frame_id: "map",
+        translation_x: 2.72499990463,
+        translation_y: -1.85099983215,
+        translation_z: 0.434000015259,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.70710670948,
+        rotation_w: -0.70710682869,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#GraspingCandidatesPosition08",
+        frame_id: "map",
+        translation_x: 0.236000061035,
+        translation_y: 8.54100036621,
+        translation_z: 0.497000008821,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: -0.707106769085,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#GraspingCandidatesPosition03",
+        frame_id: "map",
+        translation_x: 3.05660009384,
+        translation_y: 6.74020004272,
+        translation_z: 0.545000076294,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.70710670948,
+        rotation_w: -0.70710682869,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#GraspingCandidatesPosition02",
+        frame_id: "map",
+        translation_x: 2.51039981842,
+        translation_y: 6.7346997261,
+        translation_z: 0.545000076294,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.70710670948,
+        rotation_w: -0.70710682869,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#GraspingCandidatesPosition01",
+        frame_id: "map",
+        translation_x: 2.27099990845,
+        translation_y: 6.33899974823,
+        translation_z: 0.545000076294,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.063487328589,
+        rotation_w: -0.997982621193,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#GraspingCandidatesPosition07",
+        frame_id: "map",
+        translation_x: -0.302000045776,
+        translation_y: 8.59499931335,
+        translation_z: 0.497200012207,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.663926362991,
+        rotation_w: -0.747797906399,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#GraspingCandidatesPosition06",
+        frame_id: "map",
+        translation_x: 3.80599975586,
+        translation_y: 8.3719997406,
+        translation_z: 0.65299987793,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.14521984756,
+        rotation_w: -0.989399433136,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#GraspingCandidatesPosition05",
+        frame_id: "map",
+        translation_x: 3.77699995041,
+        translation_y: 7.93700027466,
+        translation_z: 0.65299987793,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -8.74227765735e-08,
+        rotation_w: -1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#GraspingCandidatesPosition04",
+        frame_id: "map",
+        translation_x: 3.77299976349,
+        translation_y: 7.48900032043,
+        translation_z: 0.65299987793,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -8.74227765735e-08,
+        rotation_w: -1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room",
+        frame_id: "map",
+        translation_x: 0.0598007440567,
+        translation_y: 0.00812077522278,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition32",
+        frame_id: "map",
+        translation_x: -0.565999984741,
+        translation_y: -1.77349996567,
+        translation_z: 1.07400000095,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: -0.70710670948,
+        rotation_w: -0.70710682869,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition33",
+        frame_id: "map",
+        translation_x: 2.31699991226,
+        translation_y: 5.11299991608,
+        translation_z: 0.368999958038,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.664643704891,
+        rotation_w: -0.747160434723,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition30",
+        frame_id: "map",
+        translation_x: 2.18400001526,
+        translation_y: 5.11699962616,
+        translation_z: 0.728999972343,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.794414520264,
+        rotation_w: -0.607375919819,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "living_room#GraspingCandidatesPosition31",
+        frame_id: "map",
+        translation_x: 2.59100008011,
+        translation_y: 0.323699951172,
+        translation_z: 0.79540002346,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.75830501318,
+        rotation_w: -0.651899933815,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "kitchen",
+        frame_id: "map",
+        translation_x: 7.3018913269,
+        translation_y: -1.07391262054,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "graspable",
+    }
+
+    - {
+        location_name: "bedroom#white_side_table",
+        frame_id: "map",
+        translation_x: 2.96099996567,
+        translation_y: 6.44299983978,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: 0.707106769085,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "living_room#dining_table_2_right",
+        frame_id: "map",
+        translation_x: 1.96299982071,
+        translation_y: 0.80999996662,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "living_room#dining_table_2_left",
+        frame_id: "map",
+        translation_x: 1.96299982071,
+        translation_y: 2.00999996662,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "bedroom#round_low_table",
+        frame_id: "map",
+        translation_x: -0.0320000648499,
+        translation_y: 8.84700012207,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: 0.707106769085,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "kitchen#trash_box_for_recycle",
+        frame_id: "map",
+        translation_x: 7.13599967957,
+        translation_y: 5.18000030518,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "ModeratorSearchPosition",
+        frame_id: "map",
+        translation_x: 0.866100311279,
+        translation_y: -0.00529289245605,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.99999462826,
+        rotation_w: 0.00327772049666,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "living_room#wooden_shelf",
+        frame_id: "map",
+        translation_x: 2.28600001335,
+        translation_y: 5.22000026703,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: 0.707106769085,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "bedroom#iron_bed_left",
+        frame_id: "map",
+        translation_x: 4.26599979401,
+        translation_y: 8.54300003052,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "bedroom#iron_bed_right",
+        frame_id: "map",
+        translation_x: 4.26599979401,
+        translation_y: 7.54300003052,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "Moderator",
+        frame_id: "map",
+        translation_x: 0.0,
+        translation_y: 0.0,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "living_room#dining_table_left",
+        frame_id: "map",
+        translation_x: 2.99599981308,
+        translation_y: 0.80999996662,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "living_room#dining_table_right",
+        frame_id: "map",
+        translation_x: 2.99599981308,
+        translation_y: 2.00999996662,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "living_room#wooden_side_table",
+        frame_id: "map",
+        translation_x: 2.70199990273,
+        translation_y: -2.01900005341,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: 0.707106769085,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "kitchen#trash_box_for_bottle_can",
+        frame_id: "map",
+        translation_x: 6.33599996567,
+        translation_y: 5.17000007629,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "bedroom#cardboard_box",
+        frame_id: "map",
+        translation_x: 1.02499985695,
+        translation_y: 8.96299934387,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: 0.707106769085,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "kitchen#trash_box_for_burnable",
+        frame_id: "map",
+        translation_x: 8.79899978638,
+        translation_y: 2.46000003815,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: -0.707106769085,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "living_room#white_side_table",
+        frame_id: "map",
+        translation_x: -1.09399986267,
+        translation_y: 3.65000009537,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "kitchen#trash_box_for_bottle_can_2",
+        frame_id: "map",
+        translation_x: 8.79599952698,
+        translation_y: 3.35099983215,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: -0.707106769085,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "living_room#trash_box_for_burnable",
+        frame_id: "map",
+        translation_x: 3.87599992752,
+        translation_y: -2.13999986649,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: -8.1460335366e-08,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "bedroom#cushion",
+        frame_id: "map",
+        translation_x: 4.33527135849,
+        translation_y: 8.68394947052,
+        translation_z: 0.0,
+        rotation_x: -0.0163219887763,
+        rotation_y: -0.00700023444369,
+        rotation_z: 0.093117646873,
+        rotation_w: -0.995496690273,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#desk_lamp",
+        frame_id: "map",
+        translation_x: 3.4279999733,
+        translation_y: 6.62699985504,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#custom_kitchen_left",
+        frame_id: "map",
+        translation_x: 6.28599977493,
+        translation_y: 0.72000002861,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#custom_kitchen_right",
+        frame_id: "map",
+        translation_x: 6.28599977493,
+        translation_y: 1.72000002861,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#flowervase_B_c02",
+        frame_id: "map",
+        translation_x: -1.21399974823,
+        translation_y: 9.0030002594,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: -8.1460335366e-08,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#chair_A_c02",
+        frame_id: "map",
+        translation_x: -1.23699998856,
+        translation_y: 8.01399993896,
+        translation_z: 0.0,
+        rotation_x: 0.00118665758055,
+        rotation_y: -0.00175779464189,
+        rotation_z: -0.747146844864,
+        rotation_w: -0.664655745029,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#fruit_basket",
+        frame_id: "map",
+        translation_x: 2.6970000267,
+        translation_y: 6.21099996567,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.737277388573,
+        rotation_w: 0.675590157509,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#carpet_A",
+        frame_id: "map",
+        translation_x: 0.53200006485,
+        translation_y: 7.98000001907,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#white_round_table",
+        frame_id: "map",
+        translation_x: -1.14400005341,
+        translation_y: 8.89999961853,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#refrigerator_2",
+        frame_id: "map",
+        translation_x: 8.87599945068,
+        translation_y: 4.29899978638,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#white_potted_plant",
+        frame_id: "map",
+        translation_x: 6.08199977875,
+        translation_y: 2.58999991417,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#changing_table",
+        frame_id: "map",
+        translation_x: 3.03600025177,
+        translation_y: 9.10000038147,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.707106769085,
+        rotation_w: 0.707106769085,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#fruit_basket",
+        frame_id: "map",
+        translation_x: 8.82899951935,
+        translation_y: -1.9889998436,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0871557742357,
+        rotation_w: 0.996194720268,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#oven",
+        frame_id: "map",
+        translation_x: 8.97299957275,
+        translation_y: 0.444000065327,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#wooden_cupboard",
+        frame_id: "map",
+        translation_x: 9.00599956512,
+        translation_y: -1.51900005341,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#babytoy_B",
+        frame_id: "map",
+        translation_x: 2.89200019836,
+        translation_y: 9.01499938965,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.77384018898,
+        rotation_w: -0.633380889893,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#blue_cupboard",
+        frame_id: "map",
+        translation_x: 9.00599956512,
+        translation_y: 0.0360000133514,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#white_potted_plant_2",
+        frame_id: "map",
+        translation_x: 4.21199989319,
+        translation_y: 6.69099998474,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#refrigerator",
+        frame_id: "map",
+        translation_x: 8.87599945068,
+        translation_y: 5.03000020981,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 1.0,
+        rotation_w: -4.37113882867e-08,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "kitchen#coffee_press",
+        frame_id: "map",
+        translation_x: 6.18699979782,
+        translation_y: 0.296000003815,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "bedroom#brown_potted_plant",
+        frame_id: "map",
+        translation_x: 1.82600021362,
+        translation_y: 9.09600067139,
+        translation_z: 0.0,
+        rotation_x: 0.0,
+        rotation_y: 0.0,
+        rotation_z: 0.0,
+        rotation_w: 1.0,
+        object_type: "other",
+    }
+
+    - {
+        location_name: "living_room#front_trash_box_for_burnable",
+        frame_id: "map",
+        translation_x: 3.9272661,
+        translation_y: -1.3680086,
+        translation_z: -0.0000008,
+        rotation_x: -0.0000250,
+        rotation_y: 0.0000075,
+        rotation_z: -0.6940527,
+        rotation_w: 0.7199242,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "kitchen#front_trash_box_for_burnable",
+        frame_id: "map",
+        translation_x: 7.9839664,
+        translation_y: 2.4715651,
+        translation_z: 0.0000033,
+        rotation_x: 0.0000108,
+        rotation_y: 0.0000241,
+        rotation_z: 0.0388713,
+        rotation_w: 0.9992442,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "kitchen#front_trash_box_for_bottle_can_2",
+        frame_id: "map",
+        translation_x: 7.9540678,
+        translation_y: 3.3137069,
+        translation_z: 0.0000149,
+        rotation_x: 0.0000043,
+        rotation_y: 0.0000445,
+        rotation_z: 0.0201961,
+        rotation_w: 0.9997960,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "kitchen#front_trash_box_for_recycle",
+        frame_id: "map",
+        translation_x: 7.1018910,
+        translation_y: 4.3393809,
+        translation_z: 0.0000010,
+        rotation_x: 0.0000470,
+        rotation_y: 0.0000328,
+        rotation_z: 0.7088982,
+        rotation_w: 0.7053108,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "kitchen#front_trash_box_for_bottle_can",
+        frame_id: "map",
+        translation_x: 6.3296843,
+        translation_y: 4.4055166,
+        translation_z: 0.0000010,
+        rotation_x: 0.0000054,
+        rotation_y: 0.0000093,
+        rotation_z: 0.7296722,
+        rotation_w: 0.6837971,
+        object_type: "destination",
+    }
+
+    - {
+        location_name: "bedroom#front_cardboard_box",
+        frame_id: "map",
+        translation_x: 1.0572881,
+        translation_y: 8.1322140,
+        translation_z: 0.0000021,
+        rotation_x: -0.0000097,
+        rotation_y: -0.0000413,
+        rotation_z: 0.7418292,
+        rotation_w: 0.6705889,
+        object_type: "destination",
+    }
+
