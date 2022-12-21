@@ -1,4 +1,4 @@
-# **RoboCup SOBITS Openについて**
+# **RoboCup SOBITS Openについて（改装中）**
 
 SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を開催しています．
 これは，RoboCupに出場したことのないメンバー(主にB3，B4)のみなさんに，開発に必要な力を身につけてもらうことを目的とした競技会になります．
