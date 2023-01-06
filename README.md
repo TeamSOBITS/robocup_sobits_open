@@ -108,8 +108,8 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 
 必ず用いる必要のあるパッケージに関して
 
-
 - [sobit_common(branch:nostic_sigverse)](https://github.com/TeamSOBITS/sobit_common/tree/noetic_sigverse)
 
+各種メッセージ型などを定義しているため
 
 [トップに戻る](#robocup-sobits-openについて)
