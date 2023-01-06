@@ -107,6 +107,9 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 ### 2023/01/05
 
 必ず用いる必要のあるパッケージに関して
-sobit_common(branch:nostic_sigverse)
+
+
+- [sobit_common(branch:nostic_sigverse)](https://github.com/TeamSOBITS/sobit_common)
+
 
 [トップに戻る](#robocup-sobits-openについて)
