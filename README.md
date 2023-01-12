@@ -1,4 +1,4 @@
-# **RoboCup SOBITS Open Simulation Leagueについて（改装中）**
+# **RoboCup SOBITS Open Simulation Leagueについて**
 
 SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を開催しています．
 これは，RoboCupに出場したことのないメンバー(主にB3，B4)のみなさんに，開発に必要な力を身につけてもらうことを目的とした競技会になります．
@@ -111,5 +111,8 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 - [sobit_common(branch:nostic_sigverse)](https://github.com/TeamSOBITS/sobit_common/tree/noetic_sigverse)
 - [hsr_ros(branch:noetic_sigverse_2022)](https://github.com/TeamSOBITS/hsr_ros/tree/noetic_sigverse_2022)
 
+### 2023/01/12
+
+物体リスト、家具などのオブジェクトリスト、置き位置リストを追加しました．
 
 [トップに戻る](#robocup-sobits-openについて)
