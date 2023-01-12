@@ -1,0 +1,87 @@
+2019HM01
+    bed_room
+        white_side_table
+        white_side_table
+        wooden_bed
+        wagon
+        cardboard_box
+
+    kitchen
+        dining_table
+        wooden_side_table
+
+    living_room
+        trash_box_for_recycle
+        trash_box_for_burnable
+        white_side_table
+        square_low_table
+
+    lobby
+        white_side_table
+        corner_sofa
+        armchair
+        trash_box_for_bottle_can
+
+
+2019HM02
+    kitchen
+        dining_table
+        wooden_side_table
+        trash_box_for_recycle
+        trash_box_for_bottle_can
+
+    living_room
+        white_side_table
+        square_low_table
+        round_low_table
+        cardboard_box
+
+    lobby
+        armchair
+        white_side_table
+        wooden_side_table
+        dining_table
+        wooden_shelf
+        wagon
+
+2020HM01
+    living_room
+        white_side_table
+        trash_box_for_burnable
+        dining_table
+        dining_table
+        wooden_shelf
+        wooden_side_table
+
+    kitchen
+        trash_box_for_bottle_can
+        trash_box_for_bottle_can
+        trash_box_for_recycle
+        trash_box_for_burnable
+
+    bed_room
+        round_low_table
+        iron_bed
+        white_side_table
+        cardboard_box
+
+2021HM01
+    bed_room
+        wooden_bed
+        white_side_table
+        wagon
+        armchair
+
+    lobby
+        cardboard_box
+        corner_sofa
+        white_side_table
+        dining_table
+        trash_box_for_burnable
+        wooden_shelf
+    
+    living_room
+        trash_box_for_burnable
+        dining_table
+        white_side_table
+        wagon
