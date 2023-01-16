@@ -113,6 +113,22 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 
 ### 2023/01/12
 
-物体リスト、家具などのオブジェクトリスト、置き位置リストを追加しました．
+- [物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2022_srl/object_list/graspable_object_list.txt)
+- [置き位置リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2022_srl/object_list/destination_list.txt)
+- [家具などすべてのオブジェクトリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2022_srl/object_list/other_object_list.txt)
+
+を追加しました．
+
+### 2023/01/16
+
+競技で使用する環境は以下の4環境です。
+「Layout2019HM01」
+「Layout2019HM02」
+「Layout2020HM01」
+「Layout2021HM01」
+
+追加でアドバイスなのですが、運営（三江、大熊、向川）では教えられる範囲に限りがあります。
+そのため競技者間で教えあったり、前にメインを担当していた人や先輩に聞くことでより開発が効率的に進むと思います。
+ルールや仕様などに関しては運営への質問をお願いします。
 
 [トップに戻る](#robocup-sobits-openについて)
