@@ -108,7 +108,7 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 
 必ず用いる必要のあるパッケージに関して
 
-- [sobit_common(branch:nostic_sigverse)](https://github.com/TeamSOBITS/sobit_common/tree/noetic_sigverse)
+- [sobit_common(branch:notic_sigverse)](https://github.com/TeamSOBITS/sobit_common/tree/noetic_sigverse)
 - [hsr_ros(branch:noetic_sigverse_2022)](https://github.com/TeamSOBITS/hsr_ros/tree/noetic_sigverse_2022)
 
 ### 2023/01/12
