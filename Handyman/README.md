@@ -16,6 +16,11 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 今回は競技を簡単にするために，家具や把持物体などの位置を含めたファイルを共有します．
 環境や把持物体はランダムに決定されます．
 
+#### 本競技の解説動画
+
+- ubuntu : smb://192.168.11.72/competitions/RCSO/2023_summeer/handyman_demo.mp4
+- windows : \\192.168.11.72/competitions/RCSO/2023_summeer/handyman_demo.mp4
+
 ### 2. 競技手順(Handyman)
 
 競技の手順は以下の通りになります．
