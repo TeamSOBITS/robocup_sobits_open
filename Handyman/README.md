@@ -1,13 +1,14 @@
-## **目次**
-
-1. [**Handyman**](#handyman)
-    1. [競技内容(Handyman)](#1-競技内容handyman)
-    2. [競技手順(Handyman)](#2-競技手順handyman)
-    3. [競技の点数表(Handyman)](#3-競技の点数表handyman)
-
 ## **Handyman**
 
 RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスクについて説明していきます．
+
+## **目次**
+
+1. [競技内容(Handyman)](#1-競技内容handyman)
+2. [競技手順(Handyman)](#2-競技手順handyman)
+3. [競技の点数表(Handyman)](#3-競技の点数表handyman)
+
+
 
 ### 1. 競技内容(Handyman)
 
@@ -87,4 +88,4 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 
 ---
 
-[トップに戻る](#robocup-sobits-openについて)
+[トップに戻る](#handyman)
