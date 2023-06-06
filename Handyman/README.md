@@ -18,8 +18,8 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 
 #### 本競技の解説動画
 
-- ubuntu : smb://192.168.11.72/competitions/RCSO/2023_summeer/handyman_demo.mp4
-- windows : \\192.168.11.72/competitions/RCSO/2023_summeer/handyman_demo.mp4
+- ubuntu：smb://192.168.11.72/competitions/RCSO/2023_summeer/handyman_demo.mp4
+- windows：\\192.168.11.72/competitions/RCSO/2023_summeer/handyman_demo.mp4
 
 ### 2. 競技手順(Handyman)
 
