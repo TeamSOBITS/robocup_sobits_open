@@ -1,9 +1,9 @@
 ## **目次**
 
 1. [**Handyman**](#simulation-robot-leaguesrl)
-    1. [競技内容(SRL)](#1-競技内容srl)
-    2. [競技手順(SRL)](#2-競技手順srl)
-    3. [競技の点数表(SRL)](#3-競技の点数表srl)
+    1. [競技内容(Handyman)](#1-競技内容handyman)
+    2. [競技手順(Handyman)](#2-競技手順handyman)
+    3. [競技の点数表(Handyman)](#3-競技の点数表handyman)
 
 ## **Handyman**
 
