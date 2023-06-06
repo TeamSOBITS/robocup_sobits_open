@@ -14,5 +14,10 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 
 # **SIGVerseの環境構築について**
 
+本競技会では，Unity上で動くシミュレーション環境であるSIGVerseを用います．
+SIGVerseのセットアップ方法やubuntuとの通信方法については，以下の記事で解説しているので参考にしてみてください．
 
-[Windows用の環境作成](https://sobits.esa.io/posts/71)
+また，記事を閲覧するには[esa](https://sobits.esa.io/)にログインする必要があります．ユーザ登録がまだの方は小林までお願いします．
+
+- [SIGVerse環境でHSRを動かすためのセットアップ方法](https://sobits.esa.io/posts/70)
+- [Windows用の環境作成](https://sobits.esa.io/posts/71)
