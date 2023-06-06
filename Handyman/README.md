@@ -1,13 +1,13 @@
 ## **目次**
 
-1. [**Handyman**](#simulation-robot-leaguesrl)
+1. [**Handyman**](#handyman)
     1. [競技内容(Handyman)](#1-競技内容handyman)
     2. [競技手順(Handyman)](#2-競技手順handyman)
     3. [競技の点数表(Handyman)](#3-競技の点数表handyman)
 
 ## **Handyman**
 
-Simulation Leagueの競技の1つであるHandymanタスクについて説明していきます．
+RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスクについて説明していきます．
 
 ### 1. 競技内容(Handyman)
 
@@ -17,7 +17,6 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 
 ### 2. 競技手順(Handyman)
 
-本競技では，画像に示すアリーナを用います．
 競技の手順は以下の通りになります．
 
 1. モデレータの指示を聞く
@@ -87,68 +86,5 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 得点獲得までに踏まなければならないステップが非常に多いため、teleopで実行してみるなどしてイメージが掴みやすいと思います.
 
 ---
-
-## 追記情報
-### 2023/01/05
-
-必ず用いる必要のあるパッケージに関して
-
-- [sobit_common(branch:notic_sigverse)](https://github.com/TeamSOBITS/sobit_common/tree/noetic_sigverse)
-- [hsr_ros(branch:noetic_sigverse_2022)](https://github.com/TeamSOBITS/hsr_ros/tree/noetic_sigverse_2022)
-
-### 2023/01/12
-
-- [物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2022_srl/object_list/graspable_object_list.txt)
-- [置き位置リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2022_srl/object_list/destination_list.txt)
-- [家具などすべてのオブジェクトリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2022_srl/object_list/other_object_list.txt)
-
-を追加しました．
-
-### 2023/01/16
-
-競技で使用する環境は以下の4環境です。  
-「Layout2019HM01」  
-「Layout2019HM02」  
-「Layout2020HM01」  
-「Layout2021HM01」  
-
-### 2023/01/17
-得点獲得の基準に関して  
-
-・命令理解  
-    以下の5つの内容を端末で出力してください。  
-    「最初に移動する部屋」  
-    「把持する物体名」  
-    「把持する物体に関する情報」（周辺の家具など）  
-    「物体の運び先となる家具」（人やごみ箱含む）  
-    「運び先に関する情報」（周辺の家具など）  
-
-・物体認識  
-    把持をできず物体認識のみの場合には、物体のTFが出力されていることを目視で確認できる状態にしてください。  
-    Rvizなどで表示してくれると助かります。
-
-追加でアドバイスなのですが、運営（三江、大熊、向川）では教えられる範囲に限りがあります。  
-そのため競技者間で教えあったり、前にメインを担当していた人や先輩に聞くことでより開発が効率的に進むと思います。  
-ルールや仕様などに関しては運営への質問をお願いします。  
-
-
-### 2023/01/18
-- [Q&Aリスト](https://docs.google.com/document/d/1kG2_dLQ8gdHry6u1r7ejECMdrJUCTa6LgoKpogq6qzg/edit?usp=sharing)
-
-セッション切り替えの際の得点に関して  
-・プログラムを再起動する場合：再起動する際のセッションの点数が0点となる  
-・Giveup や Timeup        ：次のセッションに移行し、点数は総合の点数に加算される  
-
-スタート時の流れに関して  
-1. 競技者がプログラムを起動  
-2. 運営がSIGVeseを再生  
-接続エラーがあった場合は再度起動しなおす  
-
-当日の流れ  
-コード提出　　 9:00  
-確認事項確認　 9:30  
-競技開始　　　10:00  
-
-詳細なTTは議事録を確認してください  
 
 [トップに戻る](#robocup-sobits-openについて)
