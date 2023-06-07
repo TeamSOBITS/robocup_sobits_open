@@ -7,6 +7,7 @@ RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスク�
 1. [競技内容(Handyman)](#1-競技内容handyman)
 2. [競技手順(Handyman)](#2-競技手順handyman)
 3. [競技の点数表(Handyman)](#3-競技の点数表handyman)
+4. [競技関連資料(Handyman)](#4-競技関連資料handyman)
 
 
 
@@ -15,11 +16,6 @@ RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスク�
 Handymanタスクでは，与えられた命令文を解析し、ロボットが自律的に移動し，注文された物を掴み，別のところまで運ぶことを行います．
 今回は競技を簡単にするために，家具や把持物体などの位置を含めたファイルを共有します．
 環境や把持物体はランダムに決定されます．
-
-#### 本競技の解説動画
-
-- ubuntu：smb://192.168.11.72/competitions/RCSO/2023_summeer/handyman_demo.mp4
-- windows：\\192.168.11.72/competitions/RCSO/2023_summeer/handyman_demo.mp4
 
 ### 2. 競技手順(Handyman)
 
@@ -94,6 +90,12 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 得点圏に至らない人が多かった場合は審査員側で実行過程に評価点を入れます．  
 実機と違い、課題のスキップ等はできません．
 得点獲得までに踏まなければならないステップが非常に多いため、teleop_key.launchで実行してみるなどしてイメージを掴んでみてください.
+
+### 4. 競技関連資料(Handyman)
+
+競技に関連する資料はすべてサーバに置いています．下記にPathを記述したので，必要に応じて確認してください．
+- ubuntu： smb://192.168.11.72/competitions/RCSO/2023_summeer/
+- windows： \\192.168.11.72/competitions/RCSO/2023_summeer/
 
 ---
 
