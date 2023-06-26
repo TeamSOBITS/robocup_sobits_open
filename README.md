@@ -19,3 +19,13 @@ SIGVerseのセットアップ方法やubuntuとの通信方法については，
 
 - [SIGVerse環境でHSRを動かすためのセットアップ方法](https://esa-pages.io/p/sharing/19758/posts/70/db8eb166b734bfc79ab9.html)
 - [Windows用の環境作成](https://esa-pages.io/p/sharing/19758/posts/71/4084cf2aa249a51915fc.html)
+
+# **SIGVerseの設定関連**
+
+- [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)
+
+---
+
+## 追記情報
+
+### 6/26 [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)を公開しました
