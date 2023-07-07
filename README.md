@@ -30,3 +30,9 @@ SIGVerseのセットアップ方法やubuntuとの通信方法については，
 
 ### 2023/06/26
 [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)を公開しました
+
+### 2023/07/07
+[タスクの詳細](#31-タスクの詳細)を公開しました．
+
+
+
