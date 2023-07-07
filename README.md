@@ -32,7 +32,7 @@ SIGVerseのセットアップ方法やubuntuとの通信方法については，
 [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)を公開しました
 
 ### 2023/07/07
-[タスクの詳細](#31-タスクの詳細)を公開しました．
+[タスクの詳細](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2023_srl/Handyman#31-%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E8%A9%B3%E7%B4%B0)を公開しました．
 
 
 
