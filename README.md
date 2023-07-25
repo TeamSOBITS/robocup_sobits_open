@@ -34,5 +34,8 @@ SIGVerseのセットアップ方法やubuntuとの通信方法については，
 ### 2023/07/07
 [タスクの詳細](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2023_srl/Handyman#31-%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E8%A9%B3%E7%B4%B0)を公開しました．
 
+### 2023/07/25
+[競技手順](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2023_srl/Handyman#2-%E7%AB%B6%E6%8A%80%E6%89%8B%E9%A0%86handyman)を更新しました．
+
 
 
