@@ -39,6 +39,13 @@ SIGVerseのセットアップ方法やubuntuとの通信方法については，
 
 [How to use YOLO](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)を公開しました．
 
+### 2023/07/31
+- [物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/graspable_object_list.txt)
+- [置き位置リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/destination_list.txt)
+- [家具などすべてのオブジェクトリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/other_object_list.txt)
+
+を追加しました．
+
 
 
 
