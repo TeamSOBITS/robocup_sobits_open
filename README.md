@@ -46,6 +46,7 @@ SIGVerseのセットアップ方法やubuntuとの通信方法については，
 
 を追加しました．
 
+開発に必要な[パッケージの一部](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/doc/package_list.md)を公開しました．
 
 
 
