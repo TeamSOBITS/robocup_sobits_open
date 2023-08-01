@@ -48,6 +48,12 @@ SIGVerseのセットアップ方法やubuntuとの通信方法については，
 
 開発に必要な[パッケージの一部](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/doc/package_list.md)を公開しました．
 
+競技で利用するレイアウトは
+［2019HM01］
+になります．
+レイアウトの変更方法がわからない場合は[こちら](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)を参照してください．
+
+
 
 
 
