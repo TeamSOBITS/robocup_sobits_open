@@ -1,59 +1,30 @@
-# **RoboCup SOBITS Open Simulation Leagueについて**
+# **RoboCup SOBITS Open Real Robot Leagueについて**
 
 SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を開催しています．
 これは，RoboCupに出場したことのないメンバー(主にB3，B4)のみなさんに，開発に必要な力を身につけてもらうことを目的とした競技会になります．
 
-ここでは，シミュレーションを用いた基本的な技能を競い合う「Simulation League」について述べます．
+ここでは，実機を用いた基本的な技能を競い合う「real robot League」について述べます．
 競技会への参加は任意ですので，参加したいと思う方のみで，後述する競技内容に従って競っていただきます．
 競技の開発は1人で行ってもらいますが，競技で用いる1つ1つの要素技術はSOBITSのパッケージとしてまとめられており，それらを使いこなすことで初学者の方でも充分に1人で挑戦できる競技内容になっています．
 本競技会は，基本的に先輩から開発に関するアプローチは行いませんので，主体的に行動するよう心掛けて下さい．
+
+また，今回のSOBITS OPEN2023 in Winterの競技結果は，来年度のRCJO2024のメンバー選考に大きく影響します. 
+もしRCJOに参加してみたいと思うメンバーは是非参加してみてください．
 
 本競技会での開発には，機能を実現する技術力はもちろん，壁にぶつかったときの突破力や，期限が決まった中で開発を進める計画力，その計画を実行する行動力など，様々な力が必要になります．
 この「RoboCup SOBITS Open」が，このような力を身に付けるきっかけとなって，みなさんの今後の研究生活に役立てることができると，とても嬉しく思います．
 そして，毎年開催されるRoboCupでの優勝を目指して，チームSOBITSの開発力をグッと高める機会にしていきましょう！！
 
-# **SIGVerseの環境構築について**
+## 質問がある場合
+# 競技ルールについての質問
 
-本競技会では，Unity上で動くシミュレーション環境であるSIGVerseを用います．
-SIGVerseのセットアップ方法やubuntuとの通信方法については，以下の記事で解説しているので参考にしてみてください．
+ルールについての質問はDiscordのSOBITS RoboCup開発/OPEN/rulesの場で聞いてください．
+そこ以外での質問は受け付けません．
 
-- [SIGVerse環境でHSRを動かすためのセットアップ方法](https://esa-pages.io/p/sharing/19758/posts/70/db8eb166b734bfc79ab9.html)
-- [Windows用の環境作成](https://esa-pages.io/p/sharing/19758/posts/71/4084cf2aa249a51915fc.html)
+# エラー等についての質問
 
-# **SIGVerseの設定関連**
-
-- [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)
-
----
+エラーやルール以外でわからないことがあった際は，すぐ先輩に聞くのではなく，なにを試したのか等を伝えた上で聞きましょう．
+質問された方も，簡単に教えるのではなく，何を試したのか等を聞いて，導きだす教え方をしていただけると助かります．
 
 ## 追記情報
-
-### 2023/06/26
-[SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)を公開しました
-
-### 2023/07/07
-[タスクの詳細](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2023_srl/Handyman#31-%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E8%A9%B3%E7%B4%B0)を公開しました．
-
-### 2023/07/25
-[競技手順](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2023_srl/Handyman#2-%E7%AB%B6%E6%8A%80%E6%89%8B%E9%A0%86handyman)を更新しました．
-
-[How to use YOLO](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)を公開しました．
-
-### 2023/07/31
-- [物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/graspable_object_list.txt)
-- [置き位置リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/destination_list.txt)
-- [家具などすべてのオブジェクトリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/other_object_list.txt)
-
-を追加しました．
-
-開発に必要な[パッケージの一部](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/doc/package_list.md)を公開しました．
-
-競技で利用するレイアウトは
-［2019HM01］
-になります．
-レイアウトの変更方法がわからない場合は[こちら](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)を参照してください．
-
-
-
-
 
