@@ -58,7 +58,7 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 ※非推奨
 </details>
 
-# 得点について
+## 得点について
 <details>
 <summary>得点情報まとめ</summary>
 得点については以下の表を参考にしてください．
