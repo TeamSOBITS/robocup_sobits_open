@@ -28,6 +28,7 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 <summary>競技環境情報まとめ</summary>
 
 <div align="center"><img src="/img/so_layout.png" width="80%"></div>
+
 ### 使用するレイアウト
 競技はE301で行います。簡単なレイアウトは以下の図のようになります。
 
@@ -101,7 +102,7 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 ### 競技ルールについての質問
 
 ルールについての質問はDiscordのSOBITS RoboCup開発/OPEN/rulesの場で聞いてください．
-そこ以外での質問は受け付けません．
+\\そこ以外での質問は受け付けません．
 
 ### エラー等についての質問
 
