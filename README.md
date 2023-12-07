@@ -27,10 +27,12 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 <details>
 <summary>競技環境情報まとめ</summary>
 
-<div align="center"><img src="/img/so_layout.png" width="80%"></div>
+
 
 ### 使用するレイアウト
-競技はE301で行います．簡単なレイアウトは以下の図のようになります．  
+競技はE301で行います．簡単なレイアウトは以下の図のようになります．
+  
+<div align="center"><img src="/img/so_layout.png" width="80%"></div>
 
 ※挑戦課題（障害物あり）を選択した場合，キッチンがある方の部屋のみに配置されます．  
 ※挑戦課題（2つの選択肢から選ぶ）を選択しなかった場合，お客は一人になり，右側のみに座ります．  
