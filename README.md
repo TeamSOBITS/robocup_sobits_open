@@ -27,8 +27,6 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 <details>
 <summary>競技環境情報まとめ</summary>
 
-
-
 ## 使用するレイアウト
 競技はE301で行います．簡単なレイアウトは以下の図のようになります．
 
@@ -41,6 +39,9 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 </details>
 
 ## 使用可能ロボット
+<details>
+<summary>使用可能ロボット情報まとめ</summary>
+
 使用できるロボットは以下の４つになります．  
 
 ### SOBIT PRO
@@ -55,6 +56,7 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 ### HSR
 ※動作未確認
 ※非推奨
+</details>
 
 # 得点について
 <details>
