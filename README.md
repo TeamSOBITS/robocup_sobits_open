@@ -1,7 +1,17 @@
+<a name="readme-top"></a>
+
+[JA](README.md) | [EN](README.en.md)
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
+
 # **RoboCup SOBITS Open Real Robot Leagueについて**
 
 SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を開催しています．
-これは，RoboCupに出場したことのないメンバー(主にB3，B4)のみなさんに，開発に必要な力を身につけてもらうことを目的とした競技会になります．
+これは，RoboCupに出場したことのないメンバーのみなさんに，ロボットに関する開発に必要な力を身につけてもらうことを目的とした競技会になります．
 
 ここでは，実機を用いた基本的な技能を競い合う「real robot League」について述べます．
 競技会への参加は任意ですので，参加したいと思う方のみで，後述する競技内容に従って競っていただきます．
@@ -14,6 +24,11 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 本競技会での開発には，機能を実現する技術力はもちろん，壁にぶつかったときの突破力や，期限が決まった中で開発を進める計画力，その計画を実行する行動力など，様々な力が必要になります．
 この「RoboCup SOBITS Open」が，このような力を身に付けるきっかけとなって，みなさんの今後の研究生活に役立てることができると，とても嬉しく思います．
 そして，毎年開催されるRoboCupでの優勝を目指して，チームSOBITSの開発力をグッと高める機会にしていきましょう！！
+
+# **参加や観戦に興味がある方**
+SOBITS OPENの参加や観戦に興味がある人は以下の連絡先にその旨をお伝えください．  
+**e1958209@gmail.com**
+
 
 # 資料やデモ動画について
 
@@ -30,7 +45,7 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 ## 使用するレイアウト
 競技はE301で行います．簡単なレイアウトは以下の図のようになります．
 
-<div align="center"><img src="/img/so_layout.png" width="80%"></div>
+<div align="center"><img src="img/so_layout.png" width="80%"></div>
 
 ※挑戦課題（障害物あり）を選択した場合，キッチンがある方の部屋のみに配置されます．  
 ※挑戦課題（2つの選択肢から選ぶ）を選択しなかった場合，お客は一人になり，右側のみに座ります．  
@@ -42,27 +57,23 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 <details>
 <summary>使用可能ロボット情報まとめ</summary>
 
-使用できるロボットは以下の４つになります．  
+SOBITS Commonのレポジトリでは、SOBITSがこれまで開発してきた実機ロボットを動かすため，共通のライブラリです．ロボットに搭載されているアクチュエータやセンサーなど共通で使用するリソースを統一し，ライブラリ化となったものです．
 
-### SOBIT PRO
-※動作確認済み
+SOBITS Commonが必要とされるSOBITSのロボットはこちらになります．
 
-### SOBIT EDU
-※動作確認済み
-
-### SOBIT MINI
-※動作未確認
-
-### HSR
-※動作未確認
-※非推奨
+| SOBIT PRO | SOBIT EDU | SOBIT MINI | HSR |
+| :---: | :---: | :---: | :---: |
+| ![SOBIT PRO](img/sobit_pro.png) | ![SOBIT EDU](img/sobit_edu.png) | ![SOBIT MINI](img/sobit_mini.png) | ![HSR](img/hsr.png) ___________|
+| [Gitへ移動](https://github.com/TeamSOBITS/sobit_pro) | [Gitへ移動](https://github.com/TeamSOBITS/sobit_edu) | [Gitへ移動](https://github.com/TeamSOBITS/sobit_mini) | |
 </details>
+
+
 
 ## 得点について
 <details>
 <summary>得点情報まとめ</summary>
 得点については以下の表を参考にしてください．
-<div align="center"><img src="/img/sobits_tokuten.png" width="80%"></div>
+<div align="center"><img src="img/sobits_tokuten.png" width="80%"></div>
 ※２回目の目的地まで移動の際，２つの選択肢から選ぶことが挑戦課題として記載されていますが，これは１回目の目的地まで移動の際，２人の中から手を上げている人を検出できた場合に加点されます．  
 
 ## 挑戦課題がある課題
@@ -115,3 +126,17 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 
 
 # 追記情報
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/TeamSOBITS/sobit_pro.svg?style=for-the-badge
+[contributors-url]: https://github.com/TeamSOBITS/sobit_pro/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TeamSOBITS/sobit_pro.svg?style=for-the-badge
+[forks-url]: https://github.com/TeamSOBITS/sobit_pro/network/members
+[stars-shield]: https://img.shields.io/github/stars/TeamSOBITS/sobit_pro.svg?style=for-the-badge
+[stars-url]: https://github.com/TeamSOBITS/sobit_pro/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TeamSOBITS/sobit_pro.svg?style=for-the-badge
+[issues-url]: https://github.com/TeamSOBITS/sobit_pro/issues
+[license-shield]: https://img.shields.io/github/license/TeamSOBITS/sobit_pro.svg?style=for-the-badge
+[license-url]: LICENSE
