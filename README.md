@@ -165,7 +165,7 @@ SOBITS Commonが必要とされるSOBITSのロボットはこちらになりま�
 
 
 # 追記情報
-
+### [オブジェクト情報](#使用するオブジェクトについて)と[得点情報](#加点項目)を一部追加しました。(added 12.14.2023)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
