@@ -97,16 +97,16 @@ Common Task: Navigation with no obstacles
 Challenge Task: Navigation with obstacles
 
 ### Order
-Common Task: Order in natural language
-Example: "Please give me potato chips. I want potato chips."
-Challenge Task: Possibility of the customer making a mistake in the order
-Example: Customer: "Tea, please."
-         Robot: "Is tea the correct order?"
-         Customer: "No."
-         Robot: "What is your order?"
-         Customer: "I'll have potato chips."
-Mitigation Task: Only words of the product
-Example: Customer: "Tea!"
+Common Task: Order in natural language  
+Example: "Please give me potato chips. I want potato chips."   
+Challenge Task: Possibility of the customer making a mistake in the order  
+Example: Customer: "Tea, please."  
+         Robot: "Is tea the correct order?"  
+         Customer: "No."   
+         Robot: "What is your order?"   
+         Customer: "I'll have potato chips."  
+Mitigation Task: Only words of the product   
+Example: Customer: "Tea!"  
 
 ### Object Recognition
 Common Task: Recognition using AR markers  
