@@ -131,14 +131,17 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 - ubuntu： smb://192.168.11.72/competitions/RCSO/2024_summeer/
 - windows： \\192.168.11.72/competitions/RCSO/2024_summeer/
 
-#### 4.1. esa
+#### 4.2. esa
 今回の競技で必要になるサイトを置いています．必要に応じて確認してください．
-#### 4.1.1. 競技関係
+#### 4.2.1. 競技関係
 - [How to use YOLO](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)
-#### 4.1.2. SIGVerese
+#### 4.2.2. SIGVerese
 - [SIGVerse環境でHSRを動かすためのセットアップ方法](https://esa-pages.io/p/sharing/19758/posts/70/db8eb166b734bfc79ab9.html)
 - [Windows用の環境作成](https://esa-pages.io/p/sharing/19758/posts/71/4084cf2aa249a51915fc.html)
 - [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)
+
+#### 4.3. その他
+- [google drive](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)
 
 
 ---
