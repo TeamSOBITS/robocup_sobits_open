@@ -141,7 +141,7 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 - [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)
 
 #### 4.3. その他
-- [google drive](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)
+- [google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)
 
 
 ---

@@ -20,7 +20,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 ## 追記情報
 ### **2024/06/14**
-[google drive](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)を公開しました
+[google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)を公開しました
 
 
 
