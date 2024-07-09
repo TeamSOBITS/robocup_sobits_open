@@ -1,18 +1,15 @@
-2019HM01
-    bed_room
+LayoutA
+    bedroom
         white_side_table
         white_side_table
         wooden_bed
         wagon
-        cardboard_box
 
     kitchen
         dining_table
         wooden_side_table
 
     living_room
-        trash_box_for_recycle
-        trash_box_for_burnable
         white_side_table
         square_low_table
 
@@ -20,4 +17,18 @@
         white_side_table
         corner_sofa
         armchair
-        trash_box_for_bottle_can
+
+LayoutB
+    bedroom
+        white_side_table
+        wooden_shelf
+        iron_bed
+    
+    kitchen
+        wooden_side_table
+
+    living_room
+        round_low_table
+        wooden_side_table
+        white_side_table
+        white_side_table

@@ -22,6 +22,9 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 ### **2024/06/14**
 [google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)を公開しました
 
+### **2024/07/09**
+[listの一部](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2024_srl/Handyman/object_list)を修正しました
+
 
 
 
