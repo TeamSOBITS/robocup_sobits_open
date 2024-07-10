@@ -113,39 +113,23 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 実機と違い、課題のスキップ等はできません．
 得点獲得までに踏まなければならないステップが非常に多いため、teleop_key.launchで実行してみるなどしてイメージを掴んでみてください.
 
-#### 3.1. タスクの詳細
 
-**命令文章の解析**
-- 命令理解が完了したあとに，ロボットは「Message_understood」メッセージをアバターに送信します．このとき，detailには「把持物体名 + # + 目的地」を入れてください．
-    - 例えば把持物体名が”filled_plastic_bottle”で目的地が”wooden_bed”の場合は「”filled_plastic_bottle#wooden_bed”」となります．
-    - 目的地が"me"の場合，detailには"Moderator"を入れてください．
-- アバターは，ロボットが理解した把持物体と目的地が正しいかどうかをチェックします．成功するとスコアが加算されます．（10点）(挑戦課題用の文章に成功すると20点)
-- 失敗した場合、タスクは終了し、セッションは次のセッションに進みます．
-
-**指定物体の探索**
-- 物体を認識できた場合，ロボットは「Object_recognized」メッセージをアバターに送信します．このとき，detailには「把持物体名」を入れてください．
-    - 例えば把持物体名が”filled_plastic_bottle”の場合は「”filled_plastic_bottle”」となります．
-- アバターは認識した物体が正しいかどうかをチェックします．成功するとスコアが加算されます．（20点）
-- 失敗した場合、タスクは終了し、セッションは次のセッションに進みます．
-
-
-
-### 4. 競技関連資料(Handyman)
-#### 4.1. サーバー
+### 3. 競技関連資料(Handyman)
+#### 3.1. サーバー
 競技に関連する資料はすべてサーバに置いています．下記にPathを記述したので，必要に応じて確認してください．
 - ubuntu： smb://192.168.11.72/competitions/RCSO/2024_summeer/
 - windows： \\192.168.11.72/competitions/RCSO/2024_summeer/
 
-#### 4.2. esa
+#### 3.2. esa
 今回の競技で必要になるサイトを置いています．必要に応じて確認してください．
-#### 4.2.1. 競技関係
+#### 3.2.1. 競技関係
 - [How to use YOLO](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)
-#### 4.2.2. SIGVerese
+#### 3.2.2. SIGVerese
 - [SIGVerse環境でHSRを動かすためのセットアップ方法](https://esa-pages.io/p/sharing/19758/posts/70/db8eb166b734bfc79ab9.html)
 - [Windows用の環境作成](https://esa-pages.io/p/sharing/19758/posts/71/4084cf2aa249a51915fc.html)
 - [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)
 
-#### 4.3. その他
+#### 3.3. その他
 - [google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)
 
 
