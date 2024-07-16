@@ -25,8 +25,8 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 ### **2024/07/09**
 [listの一部](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2024_srl/Handyman/object_list)を修正しました
 
+### **2024/07/09**
+タスクの詳細を削除しました
 
-
-
-
-
+### **2024/07/16**
+[詳細情報](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2024_srl/Handyman)を更新しました
