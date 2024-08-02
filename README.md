@@ -20,14 +20,14 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 ## 追記情報
 ### **2024/06/14**
-[google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)を公開しました
+- [google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)を公開しました
 
 ### **2024/07/09**
-[listの一部](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2024_srl/Handyman/object_list)を修正しました
+- [listの一部](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2024_srl/Handyman/object_list)を修正しました
 
 ### **2024/07/09**
-タスクの詳細を削除しました
-
+- タスクの詳細を削除しました
+- SIGVerse_PC 予約表を競技関連資料の[その他](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2024_srl/Handyman#33-%E3%81%9D%E3%81%AE%E4%BB%96)に追加しました
 
 
 

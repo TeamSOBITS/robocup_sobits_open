@@ -28,7 +28,7 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 5. 指示された置き位置へ物体を運ぶ
 6. 置き位置に物体を置く
 
-競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし、次セッションから再起動できます．[物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/graspable_object_list.txt)や[置き位置リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/destination_list.txt)や[家具などすべてのオブジェクトリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2023_srl/Handyman/object_list/other_object_list.txt)は，このパッケージに乗っております．(リストの内容は変更になる場合が有りますのでご了承ください)
+競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし、次セッションから再起動できます．[物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2024_srl/Handyman/object_list/graspable_object_list.txt)や[置き位置リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2024_srl/Handyman/object_list/destination_list.txt)や[家具などすべてのオブジェクトリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2024_srl/Handyman/object_list/other_object_list.txt)は，このパッケージに乗っております．(リストの内容は変更になる場合が有りますのでご了承ください)
 制限時間は各セッション600秒です．
 
 #### 2.1. 競技手順の流れ
@@ -132,7 +132,7 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 #### 3.3. その他
 - [google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)
 
-
+- [SIGVerse_PC 予約表](https://docs.google.com/spreadsheets/d/1wqcdVPZ-u-Yk1pru05l88Pstl2ipjPEtc-j3akvIpP8/edit?gid=0#gid=0)
 ---
 
 [トップに戻る](#handyman)
