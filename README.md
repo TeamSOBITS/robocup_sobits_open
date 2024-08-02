@@ -29,7 +29,6 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 - タスクの詳細を削除しました
 - SIGVerse_PC 予約表を競技関連資料の[その他](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2024_srl/Handyman#33-%E3%81%9D%E3%81%AE%E4%BB%96)に追加しました
 
-
-
-
+### **2024/07/16**
+[詳細情報](https://github.com/TeamSOBITS/robocup_sobits_open/tree/rcso_2024_srl/Handyman)を更新しました
 

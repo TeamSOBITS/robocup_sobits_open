@@ -7,7 +7,7 @@ LayoutA
 
     kitchen
         dining_table
-        wooden_side_table
+        white_side_table
 
     living_room
         white_side_table

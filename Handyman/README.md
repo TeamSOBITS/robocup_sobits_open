@@ -114,22 +114,23 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 得点獲得までに踏まなければならないステップが非常に多いため、teleop_key.launchで実行してみるなどしてイメージを掴んでみてください.
 
 
-### 3. 競技関連資料(Handyman)
-#### 3.1. サーバー
+### 4. 競技関連資料(Handyman)
+#### 4.1. サーバー
 競技に関連する資料はすべてサーバに置いています．下記にPathを記述したので，必要に応じて確認してください．
 - ubuntu： smb://192.168.11.72/competitions/RCSO/2024_summeer/
 - windows： \\192.168.11.72/competitions/RCSO/2024_summeer/
 
-#### 3.2. esa
+#### 4.2. esa
 今回の競技で必要になるサイトを置いています．必要に応じて確認してください．
-#### 3.2.1. 競技関係
+#### 4.2.1. 競技関係
 - [How to use YOLO](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)
-#### 3.2.2. SIGVerese
+#### 4.2.2. SIGVerese
 - [SIGVerse環境でHSRを動かすためのセットアップ方法](https://esa-pages.io/p/sharing/19758/posts/70/db8eb166b734bfc79ab9.html)
 - [Windows用の環境作成](https://esa-pages.io/p/sharing/19758/posts/71/4084cf2aa249a51915fc.html)
 - [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)
+- [LayoutX_commonがあるUnityの環境構築](https://sobits.esa.io/posts/98)
 
-#### 3.3. その他
+#### 4.3. その他
 - [google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)
 
 - [SIGVerse_PC 予約表](https://docs.google.com/spreadsheets/d/1wqcdVPZ-u-Yk1pru05l88Pstl2ipjPEtc-j3akvIpP8/edit?gid=0#gid=0)
