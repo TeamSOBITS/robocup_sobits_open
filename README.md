@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[JA](README.md) | [EN](README.en.md)
+[日本語](README.md) | [English](README.en.md)
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -8,44 +8,96 @@
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
 
-# **RoboCup SOBITS Open Real Robot Leagueについて**
 
-SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を開催しています．
-これは，RoboCupに出場したことのないメンバーのみなさんに，ロボットに関する開発に必要な力を身につけてもらうことを目的とした競技会になります．
+# RoboCup SOBITS OPEN Real Robot League
 
-ここでは，実機を用いた基本的な技能を競い合う「real robot League」について述べます．
-競技会への参加は任意ですので，参加したいと思う方のみで，後述する競技内容に従って競っていただきます．
-競技の開発は1人で行ってもらいますが，競技で用いる1つ1つの要素技術はSOBITSのパッケージとしてまとめられており，それらを使いこなすことで初学者の方でも充分に1人で挑戦できる競技内容になっています．
+本リポジトリは大会参加者向けの「各種情報」と「競技ルール」を発信するためのリポジトリです．
+
+
+## 大会概要
+
+SOBITSでは，半年に一度，RoboCupを模した競技会である「RoboCup SOBITS OPEN」を開催しています．
+これは，Team SOBITSのRoboCupに出場したことのないメンバーをはじめとする学生が，ロボット開発に必要な力を身につけてもらうだけでなく，他大学の学生との交流から幅広い経験をする交流会の場とすることを目的としています．
+
+競技会への参加は学年・所属を問わず任意となります．参加したいと思う方のみで，後述する競技内容に従って競っていただきます．
+本競技会はSOBITSメンバーが個々の開発力向上をはかる大会ととなるため，競技の開発は1人で行っていただきます．
+競技で用いる1つ1つの要素技術はSOBITSのパッケージとしてまとめられており，それらを使いこなすことで初学者の方でも充分に1人で挑戦できる競技内容になっています．
 本競技会は，基本的に先輩から開発に関するアプローチは行いませんので，主体的に行動するよう心掛けて下さい．
+また，競技会・見学問わず学外参加者も歓迎します．
+奮ってご参加いただければと思います．
 
-また，今回のSOBITS OPEN2023 in Winterの競技結果は，来年度のRCJO2024のメンバー選考に大きく影響します. 
-もしRCJOに参加してみたいと思うメンバーは是非参加してみてください．
+またSOBITSのメンバーは，今大会の競技結果が来年度のRoboCup Japan Open 2024のメンバー選考に大きく影響します. 
+RoboCup Japan Openに参加したいSOBITSメンバーは是非参加してみてください．
 
 本競技会での開発には，機能を実現する技術力はもちろん，壁にぶつかったときの突破力や，期限が決まった中で開発を進める計画力，その計画を実行する行動力など，様々な力が必要になります．
 この「RoboCup SOBITS Open」が，このような力を身に付けるきっかけとなって，みなさんの今後の研究生活に役立てることができると，とても嬉しく思います．
-そして，毎年開催されるRoboCupでの優勝を目指して，チームSOBITSの開発力をグッと高める機会にしていきましょう！！
-
-# **参加や観戦に興味がある方**
-SOBITS OPENの参加や観戦に興味がある人は以下の連絡先にその旨をお伝えください．  
-**e1958209@gmail.com**
+そして学内外のメンバー問わず，RoboCup Japan Openを一緒に盛り上げて，互いに切磋琢磨する機会にしていきましょう！！
 
 
-# 資料やデモ動画について
+## 大会開催情報
 
-ミーティングの時に発表した資料やデモの動画に関してはサーバの/Competitions/RoboCup/RC2023_winter/slideに載せました．
-確認したい人は，そこから確認してみてください．
+RoboCup SOBITS OPEN 2024 in Winter
+主催者(Team SOBITS)情報：https://home.soka.ac.jp/~choi/index.html
+開催期間：2/12-2/13
+場所：[創価大学 理工学部棟 E301](https://www.soka.ac.jp/access/)
+質問や問い合わせ：[choi.7f@gmail.com](choi.7f@gmail.com)
 
-サーバの権限がない人は，言ってもらえればこちらから送ります．
+※2/12-2/13の参加ができない場合，これより早い日程で競技を行うことができます．ただし，事前の相談をした上で日程調整を行った場合に限ります．それ以外は認められません．
 
-# 競技の詳細 
-## 競技環境
+
+## 参加登録
+
+本大会に参加を希望する場合は，事前に[こちらのGoogleフォーム]()を入力してください．
+創価大学生以外の参加登録に関しては，．．．
+
+
+## 締め切り
+
+- 参加登録締切：2025/01/31
+
+
+## RoboCup SOBITS OPENに関する各種資料
+
+競技に関するスライドは[こちら]()にあります．
+
+競技の様子がわかるデモ動画は，[こちら]()にあがっていますので，ご参考にしてください．
+この動画ではすべての挑戦課題をスキップしています．
+挑戦課題をはじめ，質問があれば[Issue](issues-url)へお願いします．
+
+
+## 競技内容・ルール
+
+- [Restaurant for SOBITS](rules/rs_ja.md)
+- [SOBITS Rules and Regulations](rules/sr_ja.md)
+
+
+## 詳細情報
+
+- [競技環境](rules/layout_ja.md)
+- [食べ物リスト](rules/food_list_ja.md)
+- [飲み物リスト](rules/drink_list_ja.md)
+- [設置される看板](rules/board_ja.md)
+- [Q&A](rules/q_and_a_ja.md)
+<!-- 事前にあげられた質疑応答や[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)にて確定した質問をまとめました -->
+
+
+## その他のアドバイス
+
+- [おすすめのSOBITSロボット](rules/robots_ja.md)
+- [開発の手引](rules/advice_ja.md)
+
+
+# 追記情報・変更履歴
+### SSSSS(YYYY.MM.DD)
+
+<!-- 
 <details>
 <summary>競技環境情報まとめ</summary>
 
 ## 使用するレイアウト
 競技はE301で行います．簡単なレイアウトは以下の図のようになります．
 
-<div align="center"><img src="img/so_layout.png" width="80%"></div>
+<div align="center"><img src="img/sobits_open_common_layout.png" width="80%"></div>
 
 ※挑戦課題（障害物あり）を選択した場合，キッチンがある方の部屋のみに配置されます．  
 ※挑戦課題（2つの選択肢から選ぶ）を選択しなかった場合，お客は一人になり，右側のみに座ります．  
@@ -223,17 +275,17 @@ A.依存関係がある得点については？
 
 
 # 追記情報
-### [オブジェクト情報](#使用するオブジェクトについて)と[得点情報](#加点項目)を一部追加しました．(added 12.14.2023)
+### [オブジェクト情報](#使用するオブジェクトについて)と[得点情報](#加点項目)を一部追加しました．(added 12.14.2023) -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/TeamSOBITS/sobit_pro.svg?style=for-the-badge
-[contributors-url]: https://github.com/TeamSOBITS/sobit_pro/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/TeamSOBITS/sobit_pro.svg?style=for-the-badge
-[forks-url]: https://github.com/TeamSOBITS/sobit_pro/network/members
-[stars-shield]: https://img.shields.io/github/stars/TeamSOBITS/sobit_pro.svg?style=for-the-badge
-[stars-url]: https://github.com/TeamSOBITS/sobit_pro/stargazers
-[issues-shield]: https://img.shields.io/github/issues/TeamSOBITS/sobit_pro.svg?style=for-the-badge
-[issues-url]: https://github.com/TeamSOBITS/sobit_pro/issues
-[license-shield]: https://img.shields.io/github/license/TeamSOBITS/sobit_pro.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
+[contributors-url]: https://github.com/TeamSOBITS/robocup_sobits_open/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
+[forks-url]: https://github.com/TeamSOBITS/robocup_sobits_open/network/members
+[stars-shield]: https://img.shields.io/github/stars/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
+[stars-url]: https://github.com/TeamSOBITS/robocup_sobits_open/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
+[issues-url]: https://github.com/TeamSOBITS/robocup_sobits_open/issues
+[license-shield]: https://img.shields.io/github/license/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
 [license-url]: LICENSE

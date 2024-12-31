@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[JA](README.md) | [EN](README.en.md)
+[日本語](README.md) | [English](README.en.md)
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -8,163 +8,98 @@
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
 
-# **About RoboCup SOBITS Open Real Robot League**
 
-We are SOBITS, we host "RoboCup SOBITS Open," a competition modeled after RoboCup. This competition's aim is to equip participants who have not participated in RoboCup with the skills necessary for robot development.
+# RoboCup SOBITS OPEN Real Robot League
 
-Here, we describe the "Real Robot League," where basic skills using actual robots are competed. Participation in the competition is optional, and those who wish to participate will compete according to the competition content described below. Although the development of the competition is done individually, each element technology used in the competition is organized as SOBITS packages. This makes it possible for beginners to challenge the competition on their own by mastering these elements. The competition generally does not provide approaches to development from seniors, so please actively take the initiative.
-
-Furthermore, the results of this year's SOBITS OPEN2023 in Winter competition will have a significant impact on the member selection for RCJO2024 next year. If you are interested in participating in RCJO, please consider participating in this event.
-
-Developing for this competition requires various skills, including the technical capability to realize functions, the breakthrough power when facing obstacles, the planning ability to advance development within a set deadline, and the action ability to execute that plan. I hope that "RoboCup SOBITS Open" can be a starting point for acquiring such skills and be beneficial for your future research life. Let's use this opportunity to significantly enhance Team SOBITS' development capabilities, aiming for victory at RoboCup held every year!
-
-# **For Those Interested in Participation or Watching**
-
-If you are interested in participating or watching SOBITS OPEN, please convey your interest to the following contact:  
-**e1958209@gmail.com**
-
-# **Documentation and Demo Videos**
-
-Documents and demo videos presented during meetings are available on the server at /Competitions/RoboCup/RC2023_winter/slide. If you want to check, please do so from there.
-
-For those without server permissions, please let us know, and we will send them to you.
-
-# **Details of the Competition**
-## **Competition Environment**
-<details>
-<summary>Summary of Competition Environment Information</summary>
-
-## Layout Used
-The competition will take place in E301. The basic layout is as shown in the figure below.
-
-<div align="center"><img src="img/so_layout.png" width="80%"></div>
-
-* If you choose the challenge task (with obstacles), it will only be placed in the room with the kitchen.
-* If you do not choose the challenge task (choosing from two options), there will be only one customer who sits on the right side.
-
-</details>
-
-## **Available Robots**
-<details>
-<summary>Summary of Available Robot Information</summary>
-
-SOBITS Common repository provides a common library for moving the robots developed by SOBITS so far. It unifies the resources commonly used in actuators, sensors, etc., mounted on robots and has been modularized as a library.
-
-The robots for which SOBITS Common is required are as follows:
-
-| SOBIT PRO | SOBIT EDU | SOBIT MINI | HSR |
-| :---: | :---: | :---: | :---: |
-| ![SOBIT PRO](img/sobit_pro.png) | ![SOBIT EDU](img/sobit_edu.png) | ![SOBIT MINI](img/sobit_mini.png) | ![HSR](img/hsr.png) ___________|
-| [Move to Git](https://github.com/TeamSOBITS/sobit_pro) | [Move to Git](https://github.com/TeamSOBITS/sobit_edu) | [Move to Git](https://github.com/TeamSOBITS/sobit_mini) | |
-
-</details>
-
-## **Objects to be Used**
-<details>
-<summary>Summary of Objects Information</summary>
-
-For SOBITS OPEN this time, the following objects will be used.
-
-| Cup Noodles | Potato Chips | Tea |
-| :---: | :---: | :---: | 
-| ![Cup Noodles](img/object_0.jpg) | ![Potato Chips](img/object_1.jpg) | ![Tea](img/object_2.jpg) |
-| ar_maker_0 | ar_maker_1 | ar_maker_2 | 
-| ![Cup Noodles](img/ar_maker_0.jpeg) | ![Potato Chips](img/ar_maker_1.jpeg) | ![Tea](img/ar_maker_2.jpeg) |
-
-When using the ar_maker for object recognition, it is attached to the object as shown below.
-
-<div align="center"><img src="img/example_ar.jpg" width="40%"></div>
-
-* If you choose a challenge task, submitting learning data is required.
-* When attempting a challenge task and not recognizing it by checking the logs or code, recognition points will not be awarded.
-
-</details>
+This repository reflects the "Information" and "Rules" for the participant teams.
 
 
-## **Scoring**
-<details>
-<summary>Summary of Scoring Information</summary>
+## Competition Overview
 
-Refer to the table below for scoring information.
+Once every six months, SOBITS holds “RoboCup SOBITS OPEN,” a competition modeled after RoboCup.
+The purpose of this competition is to provide students, including members of Team SOBITS who have never participated in RoboCup before, with the opportunity to acquire the skills necessary for robot development, as well as to gain a wide range of experience through interaction with students from other universities.
 
-<div align="center"><img src="img/sobits_tokuten.png" width="80%"></div>
+Participation in the competition is voluntary, regardless of grade or affiliation. Only those who wish to participate will be asked to compete in accordance with the competition details described below.
+Since this competition is for SOBITS members to improve their individual development skills, the development of the competition must be done by a single person.
+Each of the elemental technologies used in the competition is packaged as a SOBITS package, and the competition is designed so that even novice developers can take on the challenge by themselves.
+In this competition, basically no approach will be made by senior members regarding development, so please be sure to act independently.
+We also welcome participants from outside the university, both for the competition and for observation.
+We hope you will join us.
 
-* For the second destination movement, when choosing from two options is listed as a challenge task, this means that points will be added if someone raises their hand and is detected when moving to the first destination.
+The results of this year's competition will have a significant impact on the selection of SOBITS members for next year's RoboCup Japan Open 2024. 
+SOBITS members who want to participate in RoboCup Japan Open are encouraged to participate.
 
-## Challenge Tasks
-#### Navigation ✕ 2
-Common Task: Navigation with no obstacles
-Challenge Task: Navigation with obstacles
+Development in this competition requires not only technical skills to realize functions, but also various other skills such as the ability to break through when you hit a wall, planning skills to proceed with development under a fixed deadline, and action skills to carry out the plan.
+We are very happy if this “RoboCup SOBITS Open” will be an opportunity for you to acquire these abilities and help you in your future research life.
+Let's make the RoboCup Japan Open a great opportunity for all of us, regardless of whether you are a member of our university or not, to get excited together and work hard to improve each other!!
 
-### Order
-Common Task: Order in natural language  
-Example: "Please give me potato chips. I want potato chips."   
-Challenge Task: Possibility of the customer making a mistake in the order  
-Example: Customer: "Tea, please."  
-         Robot: "Is tea the correct order?"  
-         Customer: "No."   
-         Robot: "What is your order?"   
-         Customer: "I'll have potato chips."  
-Mitigation Task: Only words of the product   
-Example: Customer: "Tea!"  
 
-### Object Recognition
-Common Task: Recognition using AR markers  
-Challenge Task: Recognition using learning data  
-                (Actual learning dataset must be submitted)  
-* If not recognized by checking the logs, recognition points will not be awarded.  
+## Competition Information
 
-### Object Grasping
-Common Task: Grasping objects on the desk  
-Challenge Task: Grasping objects on the shelf  
+RoboCup SOBITS OPEN 2024 in Winter
+Organizational Climate Information(Team SOBITS)：https://home.soka.ac.jp/~choi/index.html
+Competition Dates：2/12-2/13
+Location：[Soka University The Building of the Department of Science (E301)](https://www.soka.ac.jp/access/)
+Questions or inquiries：[choi.7f@gmail.com](choi.7f@gmail.com)
 
-* The height of the shelf will not be set in a position that the robot cannot reach when grasping.
-* When selecting the shelf, there may be other objects at the same height.
+※If you are unable to participate on 2/12-2/13, the competition may be held on an earlier date. However, this is only possible after prior consultation and scheduling arrangements have been made. Otherwise, it is not allowed.
 
-### Object Placement
-Common Task: Placing objects on a desk with a fixed height  
-Challenge Task: Placing objects in a state where the height is variable  
 
-* The height of the desk will not be set in a position that the robot cannot reach when placing.
+## Registration
 
-## Other Scoring Categories
-### Bonus Items
-#### Originality
-Points will be added if ingenuity in processing is observed by looking at the source code.
-#### Coding Style
-Points will be added if the source code is easy to read, understand, and easy to modify.
+本大会に参加を希望する場合は，事前に[こちらのGoogleフォーム]()を入力してください．
+創価大学生以外の参加登録に関しては，．．．
 
-### Deduction Items
-#### Copy-Paste
-If copy-pasting is observed in the source code from previous RoboCup code or if participants copy-paste sections of processing between themselves, the points for the task achieved in that section will be zero. Further deductions may occur for severe cases of copy-pasting.
-#### Collisions
-Points will be deducted based on the impact level if there are collisions between robots or objects. If a robot collision occurs, the competition will be forcibly terminated at that moment.
-#### Late Submission, Withdrawal, Unexcused Absence
-Points will be deducted.
 
-</details>
+## Deadlines
 
-# If You Have Questions
-## Questions About Competition Rules
+- Registration: 2025/01/31
 
-For questions about the rules, please ask in the #rules channel in SOBITS RoboCup Development/OPEN Discord. Questions asked elsewhere will not be accepted.
 
-## Questions About Errors, Etc.
+## RoboCup SOBITS OPENに関する各種資料
 
-If there are errors or things you don't understand other than the rules, instead of asking seniors immediately, convey what you have tried, and then ask. Those being asked should not just provide a simple answer but inquire about what has been tried. Providing guidance based on that information would be appreciated.
+競技に関するスライドは[こちら]()にあります．
 
-# Added Information
-### Added some [object information](#objects-to-be-used) and [scoring information](#scoring) (added 12.14.2023)
+競技の様子がわかるデモ動画は，[こちら]()にあがっていますので，ご参考にしてください．
+この動画ではすべての挑戦課題をスキップしています．
+挑戦課題をはじめ，質問があれば[Issue](issues-url)へお願いします．
+
+
+## Overall Rules & Competition Tasks
+
+- [Restaurant for SOBITS](rules/rs_en.md)
+- [SOBITS Rules and Regulations](rules/sr_en.md)
+
+
+## Detailed Information
+
+- [Layout](rules/layout_en.md)
+- [Food List](rules/food_list_en.md)
+- [Drink List](rules/drink_list_en.md)
+- [Board](rules/board_en.md)
+- [Q&A](rules/q_and_a_en.md)
+<!-- 事前にあげられた質疑応答や[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)にて確定した質問をまとめました -->
+
+
+## Advice List
+
+- [SOBITS Robots](rules/robots_en.md)
+- [Development Guide](rules/advice_en.md)
+
+
+# Additional Information & Change History
+### SSSSS(YYYY.MM.DD)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/TeamSOBITS/sobit_pro.svg?style=for-the-badge
-[contributors-url]: https://github.com/TeamSOBITS/sobit_pro/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/TeamSOBITS/sobit_pro.svg?style=for-the-badge
-[forks-url]: https://github.com/TeamSOBITS/sobit_pro/network/members
-[stars-shield]: https://img.shields.io/github/stars/TeamSOBITS/sobit_pro.svg?style=for-the-badge
-[stars-url]: https://github.com/TeamSOBITS/sobit_pro/stargazers
-[issues-shield]: https://img.shields.io/github/issues/TeamSOBITS/sobit_pro.svg?style=for-the-badge
-[issues-url]: https://github.com/TeamSOBITS/sobit_pro/issues
-[license-shield]: https://img.shields.io/github/license/TeamSOBITS/sobit_pro.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
+[contributors-url]: https://github.com/TeamSOBITS/robocup_sobits_open/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
+[forks-url]: https://github.com/TeamSOBITS/robocup_sobits_open/network/members
+[stars-shield]: https://img.shields.io/github/stars/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
+[stars-url]: https://github.com/TeamSOBITS/robocup_sobits_open/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
+[issues-url]: https://github.com/TeamSOBITS/robocup_sobits_open/issues
+[license-shield]: https://img.shields.io/github/license/TeamSOBITS/robocup_sobits_open.svg?style=for-the-badge
 [license-url]: LICENSE
