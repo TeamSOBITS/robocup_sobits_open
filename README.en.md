@@ -47,8 +47,8 @@ Questions or inquiries：[choi.7f@gmail.com](choi.7f@gmail.com)
 
 ## Registration
 
-本大会に参加を希望する場合は，事前に[こちらのGoogleフォーム]()を入力してください．
-創価大学生以外の参加登録に関しては，．．．
+If you wish to participate in this conference, please fill out [this Google form](https://forms.gle/aQeNcv9hsCa2pc7eA) in advance.
+If you are not a student of Soka University, please let us know in the first question that you are not a student of Soka University.
 
 
 ## Deadlines
