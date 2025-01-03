@@ -37,9 +37,13 @@ RoboCup Japan Openに参加したいSOBITSメンバーは是非参加してみ�
 ## 大会開催情報
 
 RoboCup SOBITS OPEN 2024 in Winter
+
 主催者(Team SOBITS)情報：https://home.soka.ac.jp/~choi/index.html
+
 開催期間：2/12-2/13
+
 場所：[創価大学 理工学部棟 E301](https://www.soka.ac.jp/access/)
+
 質問や問い合わせ：[choi.7f@gmail.com](choi.7f@gmail.com)
 
 ※2/12-2/13の参加ができない場合，これより早い日程で競技を行うことができます．ただし，事前の相談をした上で日程調整を行った場合に限ります．それ以外は認められません．

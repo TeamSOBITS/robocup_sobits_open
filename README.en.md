@@ -37,9 +37,13 @@ Let's make the RoboCup Japan Open a great opportunity for all of us, regardless 
 ## Competition Information
 
 RoboCup SOBITS OPEN 2024 in Winter
+
 Organizational Climate Information(Team SOBITS)：https://home.soka.ac.jp/~choi/index.html
+
 Competition Dates：2/12-2/13
+
 Location：[Soka University The Building of the Department of Science (E301)](https://www.soka.ac.jp/access/)
+
 Questions or inquiries：[choi.7f@gmail.com](choi.7f@gmail.com)
 
 ※If you are unable to participate on 2/12-2/13, the competition may be held on an earlier date. However, this is only possible after prior consultation and scheduling arrangements have been made. Otherwise, it is not allowed.
