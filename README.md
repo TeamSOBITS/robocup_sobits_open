@@ -38,14 +38,11 @@ RoboCup Japan Openに参加したいSOBITSメンバーは是非参加してみ�
 
 RoboCup SOBITS OPEN 2024 in Winter
 
-主催者(Team SOBITS)情報：https://home.soka.ac.jp/~choi/index.html
-
-開催期間：2/12-2/13
-
-場所：[創価大学 理工学部棟 E301](https://www.soka.ac.jp/access/)
-
+主催者(Team SOBITS)情報：https://home.soka.ac.jp/~choi/index.html\
+開催期間：2/12-2/13\
+場所：[創価大学 理工学部棟 E301](https://www.soka.ac.jp/access/)\
 質問や問い合わせ：[choi.7f@gmail.com](choi.7f@gmail.com)
-
+\\
 ※2/12-2/13の参加ができない場合，これより早い日程で競技を行うことができます．ただし，事前の相談をした上で日程調整を行った場合に限ります．それ以外は認められません．
 
 
@@ -64,22 +61,21 @@ RoboCup SOBITS OPEN 2024 in Winter
 
 競技に関するスライドは[こちら]()にあります．
 
-競技の様子がわかるデモ動画は，[こちら]()にあがっていますので，ご参考にしてください．
-この動画ではすべての挑戦課題をスキップしています．
+競技の様子がわかるデモ動画は，[こちら](https://x.com/sobits_soka/status/1558740216487333889)にありますので，参考にしてください．
+この動画は過去のもので一例となります．本大会に詳しいルールを確認してください．\
 挑戦課題をはじめ，質問があれば[Issue](issues-url)へお願いします．
 
 
 ## 競技内容・ルール
 
-- [Restaurant for SOBITS](rules/rs_ja.md)
-- [SOBITS Rules and Regulations](rules/sr_ja.md)
+- [Restaurant for SOBITS](rules/rss_ja.md)
+- [SOBITS Rules](rules/sr_ja.md)
 
 
 ## 詳細情報
 
 - [競技環境](rules/layout_ja.md)
-- [食べ物リスト](rules/food_list_ja.md)
-- [飲み物リスト](rules/drink_list_ja.md)
+- [物体リスト](rules/objects_list_ja.md)
 - [設置される看板](rules/board_ja.md)
 - [Q&A](rules/q_and_a_ja.md)
 <!-- 事前にあげられた質疑応答や[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)にて確定した質問をまとめました -->
@@ -92,7 +88,8 @@ RoboCup SOBITS OPEN 2024 in Winter
 
 
 # 追記情報・変更履歴
-### SSSSS(YYYY.MM.DD)
+### 物体リスト追加(2025.1.12)
+### 暫定版の得点表(2025.1.12)
 
 <!-- 
 <details>
