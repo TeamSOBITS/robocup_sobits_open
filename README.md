@@ -63,7 +63,7 @@ RoboCup SOBITS OPEN 2024 in Winter
 
 競技の様子がわかるデモ動画は，[こちら](https://x.com/sobits_soka/status/1558740216487333889)にありますので，参考にしてください．
 この動画は過去のもので一例となります．本大会に詳しいルールを確認してください．\
-挑戦課題をはじめ，質問があれば[Issue](issues-url)へお願いします．
+挑戦課題をはじめ，質問があれば[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)へお願いします．
 
 
 ## 競技内容・ルール
