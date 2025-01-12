@@ -12,7 +12,7 @@
 
 | # | 写真 | 名称（英語） | 名称（日本語） | 販売先 |
 | --- | --- | --- | --- | --- |
-| 01 | ![](../img/noodles.jpg) | Noodles | [リンク](https://www.amazon.co.jp/SAMYANG-三養-カルボナーラブルダック-炒め麺カップ-15個入りケース/dp/B088R3FFC4/ref=asc_df_B088R3FFC4?mcid=ed30999499603e51832ec407803a4202&tag=jpgo-22&linkCode=df0&hvadid=707549646446&hvpos=&hvnetw=g&hvrand=17749547390900775153&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009285&hvtargid=pla-920135472191&gad_source=1&th=1) |
+| 01 | ![](../img/noodles.jpg) | Noodles | ラーメン | [リンク](https://www.amazon.co.jp/SAMYANG-三養-カルボナーラブルダック-炒め麺カップ-15個入りケース/dp/B088R3FFC4/ref=asc_df_B088R3FFC4?mcid=ed30999499603e51832ec407803a4202&tag=jpgo-22&linkCode=df0&hvadid=707549646446&hvpos=&hvnetw=g&hvrand=17749547390900775153&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009285&hvtargid=pla-920135472191&gad_source=1&th=1) |
 | 02 | ![](../img/gummy.jpg) | Gummy | グミ | [リンク](https://www.amazon.co.jp/HARIBO-ハリボー-ゴールドベアカップ-175g×2個/dp/B07K7C5R9X?th=1) |
 | 03 | ![](../img/cookie.jpg) | Cookie | クッキー | [リンク](https://www.amazon.co.jp/モンデリーズ-オレオ-バニラクリーム-5枚入×2パック/dp/B0CJFMRP5F/ref=asc_df_B0CJFMRP5F?mcid=9864c1108a3e355784b645b2ea947452&th=1&psc=1&tag=jpgo-22&linkCode=df0&hvadid=707567842442&hvpos=&hvnetw=g&hvrand=5378105258614271869&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009285&hvtargid=pla-2382815732576&psc=1&gad_source=1) |
 | 04 | ![](../img/potato_chips.jpg) | Potato Chips | ポテトチップス | [リンク](https://www.amazon.co.jp/ヤマザキビスケット-チップスターSのりしお味-45ｇ×8個/dp/B0BW43BDJG) |
