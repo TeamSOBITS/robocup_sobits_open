@@ -12,5 +12,5 @@
 | 01 | SOBIT PRO | ![](../img/sobit_pro.png) |
 | 02 | SOBIT EDU | ![](../img/sobit_edu.png) |
 | 03 | SOBIT MINI | ![](../img/sobit_mini.png) |
-| 04 | SOBIT LIGHT | ![](../img/sobit_mini.png) |
+| 04 | SOBIT LIGHT | ![](../img/sobit_light.png) |
 | 05 | HSR | ![](../img/hsr.png) |
