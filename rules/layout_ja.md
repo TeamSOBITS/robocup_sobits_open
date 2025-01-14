@@ -41,12 +41,15 @@ RoboCup SOBITS OPEN 2024 in Winterで使用されるアリーナは以下の画�
 
     0.40\[m\]四方の高さ0.45\[m\]〜0.50\[m\]程度の高さの台に，以下の写真のようにホワイトボードを乗せて立て看板を再現する．
 
-    ![Board_Front](../img/example_board_front.jpg)
-    ![Board_Side](../img/example_board_side.jpg)
+    <!-- ![Board_Front](../img/example_board_front.jpg) -->
+    <!-- ![Board_Side](../img/example_board_side.jpg) -->
+    <img src="../img/example_board_front.jpg" width="300">
+    <img src="../img/example_board_side.jpg" width="300">
 
     ホワイトボードは[こちら]()を用いる．そして立てかけるために[こちらのスマホホルダー]()を用いる．\
     文字はOCによって書かれる．以下にその一例を示す．ただしこの通りに書かれるとは限らない．
 
-    ![Board](../img/example_white_board.jpg)
+    <!-- ![Board](../img/example_white_board.jpg) -->
+    <img src="../img/example_white_board.jpg" width="400">
 
     また，日本語か英語かは，選択することができる．
