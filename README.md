@@ -42,7 +42,7 @@ RoboCup SOBITS OPEN 2024 in Winter
 開催期間：2/12-2/13\
 場所：[創価大学 理工学部棟 E301](https://www.soka.ac.jp/access/)\
 質問や問い合わせ：[choi.7f@gmail.com](choi.7f@gmail.com)
-\\
+\
 ※2/12-2/13の参加ができない場合，これより早い日程で競技を行うことができます．ただし，事前の相談をした上で日程調整を行った場合に限ります．それ以外は認められません．
 
 
@@ -76,7 +76,6 @@ RoboCup SOBITS OPEN 2024 in Winter
 
 - [競技環境](rules/layout_ja.md)
 - [物体リスト](rules/objects_list_ja.md)
-- [設置される看板](rules/board_ja.md)
 - [Q&A](rules/q_and_a_ja.md)
 <!-- 事前にあげられた質疑応答や[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)にて確定した質問をまとめました -->
 
