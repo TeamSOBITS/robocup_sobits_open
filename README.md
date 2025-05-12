@@ -17,14 +17,15 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 ## 大会開催情報
 
-RoboCup SOBITS OPEN 2025 in Summer
+**RoboCup SOBITS OPEN 2025 in Summer**
 
-主催者(Team SOBITS)情報：https://home.soka.ac.jp/~choi/index.html\
-開催期間：2025年8月7日（木）- 8月8日（金）\
-場所：[創価大学 理工学部棟 教室未定](https://www.soka.ac.jp/access/)\
-質問や問い合わせ：[team.sobits@gmail.com](team.sobits@gmail.com)
-\
-※8月7日-8月8日の参加ができない場合，これより早い日程で競技を行うことができます．ただし，事前の相談をした上で日程調整を行った場合に限ります．それ以外は認められません．
+**主催者**：[Team SOBITS](https://home.soka.ac.jp/~choi/index.html) \
+**開催期間**：2025年8月7日（木）- 8月8日（金）\
+**場所**：[創価大学 理工学部棟 教室未定](https://www.soka.ac.jp/access/) \
+**質問や問い合わせ**：[team.sobits@gmail.com](team.sobits@gmail.com) 
+
+> [!NOTE] 
+> 8月7日-8月8日の参加ができない場合，これより早い日程で競技を行うことができます．ただし，事前の相談をした上で日程調整を行った場合に限ります．それ以外は認められません．
 
 
 ## 参加登録
