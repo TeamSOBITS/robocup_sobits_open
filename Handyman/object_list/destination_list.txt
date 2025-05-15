@@ -23,3 +23,12 @@ LayoutB
         white_side_table
         wooden_shelf
         iron_bed
+
+    kitchen
+        wooden_side_table
+
+    living_room
+        round_low_table
+        wooden_side_table
+        white_side_table
+        white_side_table
