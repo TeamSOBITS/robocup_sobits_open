@@ -6,33 +6,37 @@
 ## grasp_location
 ### living_room
 - white_side_table
-  - square_low_table
-  - sofa
-  - TV_rack
-  - kitchen
-            wooden_side_table
-            dining_table
-            custom_kitchen
-            blue_cupboard
-        lobby
-            white_side_table
-            corner_sofa
-            sofa
-            white_rack
-            armchair
-        bedroom
-            wooden_bed
-            wagon
-            white_side_table_1
-            white_side_table_2
+- square_low_table
+- sofa
+- TV_rack
+
+### kitchen
+- wooden_side_table
+- dining_table
+- custom_kitchen
+- blue_cupboard
+
+### lobby
+- white_side_table
+- corner_sofa
+- sofa
+- white_rack
+- armchair
+
+### bedroom
+- wooden_bed
+- wagon
+- white_side_table_1
+- white_side_table_2
     
-    place_location
-        living_room
-            white_side_table
-            square_low_table
-        kitchen
-            dining_table
-            wooden_side_table
+## place_location
+### living_room
+- white_side_table
+- square_low_table
+
+### kitchen
+- dining_table
+- wooden_side_table
         lobby
             white_side_table
             corner_sofa
