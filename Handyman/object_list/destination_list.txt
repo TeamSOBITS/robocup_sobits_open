@@ -39,3 +39,48 @@ Layout2019HM01
             wooden_bed
             wagon
     moderator_point
+
+Layout2019HM02
+    grasp_location
+        living_room
+            white_side_table
+            sofa
+            round_low_table
+            square_low_table
+            TV_rack
+            white_chair
+        kitchen
+            dining_table
+            wooden_side_table
+            custom_kitchen
+            blue_cupboard
+            wooden_cupboard
+        lobby
+            sofa
+            armchair
+            wooden_side_table
+            wooden_shelf
+            wagon_1
+            wagon_2
+            white_side_table
+            white_shelf
+            dining_table
+
+    place_location
+        living_room
+            white_side_table
+            sofa
+            round_low_table
+            square_low_table
+        kitchen
+            dining_table
+            wooden_side_table
+        lobby
+            sofa
+            armchair
+            wooden_side_table
+            wooden_shelf
+            wagon_1
+            white_side_table
+            dining_table
+    moderator_point
