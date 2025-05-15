@@ -2,8 +2,8 @@
 > [!WARNING]
 > Location Listは今後更新される可能性があります。
 
-Layout2019HM01
-    grasp_location
+##Layout2019HM01
+    #grasp_location
         living_room
             white_side_table
             square_low_table
