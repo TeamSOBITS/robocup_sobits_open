@@ -10,8 +10,6 @@ RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスク�
 1. [競技内容(Handyman)](#1-競技内容handyman)
 2. [競技手順(Handyman)](#2-競技手順handyman)
 3. [競技の点数表(Handyman)](#3-競技の点数表handyman)
-4. [競技関連資料(Handyman)](#4-競技関連資料handyman)
-
 
 
 ### 1. 競技内容(Handyman)
@@ -19,6 +17,12 @@ RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスク�
 Handymanタスクでは，与えられた命令文を解析し、ロボットが自律的に移動し，注文された物を掴み，別のところまで運ぶことを行います．
 今回は競技を簡単にするために，家具や把持物体などの位置を含めたファイルを共有します．
 環境や把持物体はランダムに決定されます．
+
+- 本競技は，1人3セッション挑戦することができ，3セッションの総合得点で順位を決めます．
+- 実機と違い、タスクのスキップ等はできません．
+- 競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし、次セッションから再起動できます
+- [環境レイアウト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout.md)、[把持地点・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/location_list.md)や[物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しており、ご確認ください
+- 制限時間は各セッション600秒です．
 
 ### 2. 競技手順(Handyman)
 
@@ -30,9 +34,6 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 4. その物体を把持する
 5. 指示された置き位置へ物体を運ぶ
 6. 置き位置に物体を置く
-
-競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし、次セッションから再起動できます．[物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2024_srl/Handyman/object_list/graspable_object_list.txt)や[置き位置リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2024_srl/Handyman/object_list/destination_list.txt)や[家具などすべてのオブジェクトリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2024_srl/Handyman/object_list/other_object_list.txt)は，このパッケージに乗っております．(リストの内容は変更になる場合が有りますのでご了承ください)
-制限時間は各セッション600秒です．
 
 #### 2.1. 競技手順の流れ
 
@@ -55,87 +56,75 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 - タスクが終了した場合（成功または失敗）: モデレータは「Task_succeeded」 (タスク成功) または「Task_failed」 (タスク失敗) メッセージをロボットに送信します．すべてのタスクが終了した際に，モデレータはロボットに「Mission_complete」メッセージを送信します．
 - 制限時間が終了した場合: モデレータは，タスクが失敗したことを示す「Task_failed」メッセージをロボットに送信します．
 - ロボットは、タスクを達成できない場合に「Give_up」メッセージを送信できます．その場合，タスクは中止され「Task_failed」メッセージが送信され，次のセッションに進みます．
-### 3. 競技の点数表(Handyman)
-狭義の点数に関しても変動する可能性がございますのでご了承お願いします。
-<table>
+
+<h3>3. 競技の点数表（Handyman）</h3>
+<p>※ 狭義の点数は変更の可能性があります。ご了承ください。</p>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
     <tr>
-        <th>タスク内容</th>
-        <th>基準点数</th>
-        <th>挑戦点数</th>
+      <th>タスク内容</th>
+      <th>基準点数</th>
+      <th>挑戦内容</th>
+      <th>挑戦点数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>セッション切り替え</td>
+      <td>0点</td>
+      <td>―</td>
+      <td>20点</td>
     </tr>
     <tr>
-        <td>セッション切り替え</td>
-        <td>0点</td>
-        <td>20点</td>
+      <td>命令文章を解析する</td>
+      <td>10点</td>
+      <td>多様な表現に対応</td>
+      <td>20点</td>
     </tr>
     <tr>
-        <td>map1つで実施（挑戦：mapが2つ）</td>
-        <td>10点</td>
-        <td>20点</td>
+      <td>指定された部屋へ移動する</td>
+      <td>10点</td>
+      <td>二つ目のmapで指定された部屋へ移動※1</td>
+      <td>20点</td>
     </tr>
     <tr>
-        <td>命令文章を解析する（挑戦：多様な表現）</td>
-        <td>10点</td>
-        <td>20点</td>
+      <td>指定された物体の認識</td>
+      <td>20点</td>
+      <td>家具名が与えられない状況で物体の認識</td>
+      <td>40点</td>
     </tr>
     <tr>
-        <td>指定された部屋へ移動する</td>
-        <td>10点</td>
-        <td>10点</td>
+      <td>指定された物体の把持</td>
+      <td>30点</td>
+      <td>透明物体</td>
+      <td>50点</td>
     </tr>
     <tr>
-        <td>指定された物体を探索する（挑戦：置かれてる物体名が言われない）</td>
-        <td>20点</td>
-        <td>40点</td>
+      <td>物体を指定場所へ運搬</td>
+      <td>10点</td>
+      <td>ランダムな位置にいる人に手渡し※2</td>
+      <td>10点</td>
     </tr>
     <tr>
-        <td>指定された物体を把持する(挑戦：オブジェクトの個数が複数)</td>
-        <td>30点</td>
-        <td>50点</td>
+      <td>物体を指定場所に配置※3</td>
+      <td>20点</td>
+      <td>命令文によって配置場所が非固定</td>
+      <td>40点</td>
     </tr>
     <tr>
-        <td>指定された場所を指定された場所に運ぶ</td>
-        <td>10点</td>
-        <td>10点</td>
+      <td><strong>合計</strong></td>
+      <td><strong>100点</strong></td>
+      <td></td>
+      <td><strong>200点</strong></td>
     </tr>
-    <tr>
-        <td>指定された場所に物体を置く（挑戦：置かれる場所が命令文によって変化する）</td>
-        <td>20点</td>
-        <td>40点</td>
-    </tr>
-    <tr>
-        <td>合計</td>
-        <td>110点</td>
-        <td>190点</td>
-    </tr>
+  </tbody>
 </table>
 
-本競技は，1人3セッション挑戦することができ，3セッションの総合得点で順位を決めます．  
-得点圏に至らない人が多かった場合は審査員側で実行過程に評価点を入れます．  
-実機と違い、課題のスキップ等はできません．
-得点獲得までに踏まなければならないステップが非常に多いため，teleop_key.launchで実行してみるなどしてイメージを掴んでみてください.
-
-今回、置き位置が固定の場合はLayoutAの場合はwhite_side_table#living_room，LayoutBの場合はiron_bed#bedroomとなります．
-### 4. 競技関連資料(Handyman)
-#### 4.1. サーバー
-競技に関連する資料はすべてサーバに置いています．下記にPathを記述したので，必要に応じて確認してください．
-- ubuntu： smb://192.168.11.72/competitions/RCSO/2024_summeer/
-- windows： \\192.168.11.72/competitions/RCSO/2024_summeer/
-
-#### 4.2. esa
-今回の競技で必要になるサイトを置いています．必要に応じて確認してください．
-#### 4.2.1. 競技関係
-- [How to use YOLO](https://esa-pages.io/p/sharing/19758/posts/82/148313344c3b93bac860.html)
-#### 4.2.2. SIGVerese
-- [SIGVerse環境でHSRを動かすためのセットアップ方法](https://esa-pages.io/p/sharing/19758/posts/70/db8eb166b734bfc79ab9.html)
-- [Windows用の環境作成](https://esa-pages.io/p/sharing/19758/posts/71/4084cf2aa249a51915fc.html)
-- [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)
-- [LayoutX_commonがあるUnityの環境構築](https://sobits.esa.io/posts/98)
-
-#### 4.3. その他
-- [google drive](https://drive.google.com/drive/folders/1qco1O437gQ9-aQmf3LADglZBCKdoU67I?usp=sharing)
-
-- [SIGVerse_PC 予約表](https://docs.google.com/spreadsheets/d/1wqcdVPZ-u-Yk1pru05l88Pstl2ipjPEtc-j3akvIpP8/edit?gid=0#gid=0)
----
+- ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
+- ※2：人がいる部屋は，命令文の中で明示されます．
+- ※3：物体の固定の配置場所について
+  - LayoutAの場合は、living_roomのwhite_side_table
+  - LayoutBの場合は、bedroomのiron_bed
 
 [トップに戻る](#handyman)
