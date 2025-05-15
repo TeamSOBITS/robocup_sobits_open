@@ -37,28 +37,30 @@
 ### kitchen
 - dining_table
 - wooden_side_table
-        lobby
-            white_side_table
-            corner_sofa
-            armchair
-        bedroom
-            white_side_table_1
-            white_side_table_2
-            wooden_bed
-            wagon
-    moderator_point
 
-Layout2019HM02
-    grasp_location
-        living_room
-            white_side_table
-            sofa
-            round_low_table
-            square_low_table
-            TV_rack
-            white_chair
-        kitchen
-            dining_table
+### lobby
+- white_side_table
+- corner_sofa
+- armchair
+
+### bedroom
+- white_side_table_1
+- white_side_table_2
+- wooden_bed
+- wagon
+
+# Layout2019HM02
+## grasp_location
+### living_room
+- white_side_table
+- sofa
+- round_low_table
+- square_low_table
+- TV_rack
+- white_chair
+
+### kitchen
+- dining_table
             wooden_side_table
             custom_kitchen
             blue_cupboard
