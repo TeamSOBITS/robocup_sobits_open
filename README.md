@@ -1,9 +1,9 @@
-# **RoboCup SOBITS Open Simulation Leagueについて**
+# **RoboCup SOBITS Open Simulation Robot Leagueについて**
 
 SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を開催しています．
 これは，RoboCupに出場したことのないメンバー(主にB3，B4)のみなさんに，開発に必要な力を身につけてもらうことを目的とした競技会になります．
 
-ここでは，シミュレーションを用いた基本的な技能を競い合う「Simulation League」について述べます．  
+ここでは，シミュレーションを用いた基本的な技能を競い合う「Simulation Robot League」について述べます．  
 B3生以外の方の競技会への参加は任意ですので，参加したいと思う方のみで，後述する競技内容に従って競っていただきます．
 競技の開発は1人で行ってもらいますが，競技で用いる1つ1つの要素技術はSOBITSのパッケージとしてまとめられており，それらを使いこなすことで初学者の方でも充分に1人で挑戦できる競技内容になっています．
 本競技会は，基本的に先輩から開発に関するアプローチは行いませんので，主体的に行動するよう心掛けて下さい．
@@ -21,7 +21,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 **主催者**：[Team SOBITS](https://home.soka.ac.jp/~choi/index.html) \
 **開催期間**：2025年8月7日（木）- 8月8日（金）\
-**場所**：[創価大学 理工学部棟 教室未定](https://www.soka.ac.jp/access/) \
+**場所**：[創価大学 理工学部棟 教室F405](https://www.soka.ac.jp/access/) \
 **質問や問い合わせ**：[team.sobits@gmail.com](team.sobits@gmail.com) 
 
 > [!NOTE] 
@@ -47,16 +47,19 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 ## 競技内容・ルール
 
 - [Handyman Rules for RCSO2025](Handyman/rules_ja.md)
+- [Hints for Beginner](Handyman/hint.md)
 
 
 ## 詳細情報
 
-- [競技環境（公開予定）](Handyman/layout.md)
-- [地点名リスト（公開予定）](Handyman/location_list.md)
-- [物体リスト（公開予定）](Handyman/objects_list.md)
+- [環境セットアップ](Handyman/setup.md)
+- [競技環境](Handyman/layout.md)
+- [地点名リスト](Handyman/location_list.md)
+- [物体リスト](Handyman/objects_list.md)
 - [Q&A](Handyman/q_and_a_ja.md)
 
 ---
 
 ## 追記情報・変更履歴
 - RCSO2025ブランチ作成 (2025.5.13)
+- 競技環境，地点名リスト，物体リストを公開．また，環境セットアップに関するヒントおよびルールの一部を更新 (2025.5.15)
