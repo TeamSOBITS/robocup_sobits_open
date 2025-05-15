@@ -13,7 +13,7 @@
 - tumbler
 - white_cup
 
-# transparent_object_list
+# transparent_object_list (挑戦課題)
 - empty_ketchup
 - empty_plastic_bottle
 - nursing_bottle
