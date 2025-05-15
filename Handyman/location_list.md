@@ -49,7 +49,7 @@
 - wooden_bed
 - wagon
 
-# Layout2019HM02
+# Layout2019HM02(挑戦課題)
 ## grasp_location
 ### living_room
 - white_side_table
