@@ -1,29 +1,16 @@
-white_cup
-pink_cup
-tumbler
-empty_ketchup
-filled_ketchup
-ground_pepper
-salt
-sauce
-soysauce
-sugar
-canned_juice
-empty_plastic_bottle
-filled_plastic_bottle
-cubic_clock
-bear_doll
-dog_doll
-rabbit_doll
-toy_car
-toy_penguin
-toy_duck
-nursing_bottle
-apple
-cigarette
-hourglass
-rubik's_cube
-spray_bottle
-game_controller
-piggy_bank
-matryoshka
+graspable_object_list
+  apple
+  canned_juice
+  cubic_clock
+  filled_plastic_bottle
+  matryoshka
+  soysauce
+  spray_bottle
+  toy_penguin
+  tumbler
+  white_cup
+
+transparent_object_list
+  empty_ketchup
+  empty_plastic_bottle
+  nursing_bottle
