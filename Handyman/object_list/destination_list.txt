@@ -1,34 +1,41 @@
-LayoutA
-    bedroom
-        white_side_table
-        white_side_table
-        wooden_bed
-        wagon
-
-    kitchen
-        dining_table
-        white_side_table
-
-    living_room
-        white_side_table
-        square_low_table
-
-    lobby
-        white_side_table
-        corner_sofa
-        armchair
-
-LayoutB
-    bedroom
-        white_side_table
-        wooden_shelf
-        iron_bed
+Layout2019HM01
+    grasp_location
+        living_room
+            white_side_table
+            square_low_table
+            sofa
+            TV_rack
+        kitchen
+            wooden_side_table
+            dining_table
+            custom_kitchen
+            blue_cupboard
+        lobby
+            white_side_table
+            corner_sofa
+            sofa
+            white_rack
+            armchair
+        bedroom
+            wooden_bed
+            wagon
+            white_side_table_1
+            white_side_table_2
     
-    kitchen
-        wooden_side_table
-
-    living_room
-        round_low_table
-        wooden_side_table
-        white_side_table
-        white_side_table
+    place_location
+        living_room
+            white_side_table
+            square_low_table
+        kitchen
+            dining_table
+            wooden_side_table
+        lobby
+            white_side_table
+            corner_sofa
+            armchair
+        bedroom
+            white_side_table_1
+            white_side_table_2
+            wooden_bed
+            wagon
+    moderator_point
