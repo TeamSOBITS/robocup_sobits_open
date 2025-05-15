@@ -2,14 +2,14 @@
 > [!WARNING]
 > Location Listは今後更新される可能性があります。
 
-### Layout2019HM01
+# Layout2019HM01
 ## grasp_location
-# living_room
-            - white_side_table
-            - square_low_table
-            - sofa
-            - TV_rack
-        kitchen
+### living_room
+- white_side_table
+  - square_low_table
+  - sofa
+  - TV_rack
+  - kitchen
             wooden_side_table
             dining_table
             custom_kitchen
