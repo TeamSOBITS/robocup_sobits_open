@@ -3,7 +3,7 @@
 > Location Listは今後更新される可能性があります。
 
 # Layout2019HM01
-## grasp_location
+## 把持する地点
 ### living_room
 - white_side_table
 - square_low_table
@@ -29,7 +29,7 @@
 - white_side_table_1
 - white_side_table_2
     
-## place_location
+## 置く地点
 ### living_room
 - white_side_table
 - square_low_table
@@ -50,7 +50,7 @@
 - wagon
 
 # Layout2019HM02(挑戦課題)
-## grasp_location
+## 把持する地点
 ### living_room
 - white_side_table
 - sofa
@@ -77,7 +77,7 @@
 - white_shelf
 - dining_table
 
-## place_location
+## 置く地点
 ### living_room
 - white_side_table
 - sofa
