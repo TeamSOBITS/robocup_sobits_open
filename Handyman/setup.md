@@ -20,10 +20,8 @@ ROS 2 を実行するPCと，Windows側のSIGVerseシミュレータがネット
 
 ### SIGVerse環境設定
 SIGVerseは，Unity上で動くシミュレーション環境です．Unityをインストールした上で，SIGVerse環境をセットアップしてください．
-- [Windows用の環境作成](https://esa-pages.io/p/sharing/19758/posts/71/4084cf2aa249a51915fc.html)
 - [SIGVerse環境とROS2 HumbleでHSRを動かすためのセットアップ方法](https://esa-pages.io/p/sharing/19758/posts/108/5ee40954d9b18a8cd0ea.html)
 
 ### 競技環境レイアウト設定
 Handymanをはじめ，レイアウト，物体の位置などを変更したい場合は，SIGVerseConfigを変更する必要があります．以下のリンクは，その仕方について述べます．
 - [SIGVerseのレイアウト設定方法](https://esa-pages.io/p/sharing/19758/posts/81/3eb70fdabe437dcbf15d.html)
-- [LayoutX_commonがあるUnityの環境構築](https://sobits.esa.io/posts/98)
