@@ -21,7 +21,7 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 - 本競技は，1人3セッション挑戦することができ，3セッションの総合得点で順位を決めます．
 - 実機と違い、タスクのスキップ等はできません．
 - 競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし、次セッションから再起動できます
-- [環境レイアウトと把持地点・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)、や[物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しており、ご確認ください
+- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)、や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しており、ご確認ください
 - 制限時間は各セッション600秒です．
 
 ### 2. 競技手順(Handyman)
