@@ -53,7 +53,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 ## 詳細情報
 
 - [環境セットアップ](Handyman/setup.md)
-- [競技環境と地点名リスト](Handyman/layout_and_location_list.md)
+- [環境レイアウトと把持・配置地点のリスト](Handyman/layout_and_location_list.md)
 - [把持物体リスト](Handyman/object_list.md)
 - [Q&A](Handyman/q_and_a_ja.md)
 
