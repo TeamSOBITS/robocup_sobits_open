@@ -4,7 +4,7 @@
 # Layout2019HM01
 <img src="../img/Layout2019HM01_room_seg.png" width="1000">
 
-## Location List (把持すべき物体が置かれている家具 & 把持した物体を配置すべき家具)
+## Location List (把持すべき物体が置かれている地点 & 把持した物体を配置すべき地点)
 ### living_room
 - white_side_table
 - square_low_table
@@ -27,7 +27,7 @@
 # Layout2019HM02 (挑戦課題)
 <img src="../img/Layout2019HM02_room_seg.png" width="1000">
 
-## Location List (把持すべき物体が置かれている家具 & 把持した物体を配置すべき家具)
+## Location List (把持すべき物体が置かれている地点 & 把持した物体を配置すべき地点)
 ### living_room
 - white_side_table
 - sofa
