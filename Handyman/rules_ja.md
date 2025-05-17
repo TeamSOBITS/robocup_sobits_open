@@ -1,7 +1,7 @@
 > [!WARNING]
 > Layoutは今後更新される可能性があります。
 
-## **Handyman**
+## **Handyman Rules for RCSO2025**
 
 RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスクについて説明していきます．
 
@@ -14,14 +14,14 @@ RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスク�
 
 ### 1. 競技内容(Handyman)
 
-Handymanタスクでは，与えられた命令文を解析し、ロボットが自律的に移動し，注文された物を掴み，別のところまで運ぶことを行います．
-今回は競技を簡単にするために，家具や把持物体などの位置を含めたファイルを共有します．
+Handymanタスクでは，与えられた命令文を解析し、ロボットが自律的に移動し，注文された物を掴み，別のところまで運ぶタスクを行います．
+今回は競技を簡単にするために，把持・配置地点のリストや把持物体などの位置を含めた情報を掲載します．
 環境や把持物体はランダムに決定されます．
 
 - 本競技は，1人3セッション挑戦することができ，3セッションの総合得点で順位を決めます．
 - 実機と違い、タスクのスキップ等はできません．
 - 競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし、次セッションから再起動できます
-- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)、や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しており、ご確認ください
+- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)、や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しているので、ご確認ください．
 - 制限時間は各セッション600秒です．
 
 ### 2. 競技手順(Handyman)
@@ -29,8 +29,8 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 競技の手順は以下の通りになります．
 
 1. モデレータの指示を聞く
-2. 指定された部屋へ移動する
-3. 指定された物体を探索する
+2. 指示された部屋へ移動する
+3. 指示された物体を探索する
 4. その物体を把持する
 5. 指示された置き位置へ物体を運ぶ
 6. 置き位置に物体を置く
