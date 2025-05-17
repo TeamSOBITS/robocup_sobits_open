@@ -1,5 +1,7 @@
 > [!WARNING]
 > LayoutとLocation Listは今後更新される可能性があります。
+>
+# 環境レイアウトと把持・配置地点のリスト
 
 # Layout2019HM01
 <img src="../img/Layout2019HM01_room_seg.png" width="1000">
