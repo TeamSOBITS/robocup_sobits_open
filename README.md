@@ -38,7 +38,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 ## RoboCup SOBITS OPENに関する各種資料
 
-競技に関するスライドは[こちら（公開予定）]()にあります．
+競技に関するスライドは[こちら](RCSO25_in_summer_slides.pdf)にあります．
 
 また，競技の様子がわかるデモ動画は，[こちら](https://drive.google.com/file/d/1gMKeu-P3OFKFWy6-7lqwjCxsmvTNjv6x/view?usp=sharing)にありますので，参考にしてください．
 この動画は過去のもので一例となります．本大会に詳しいルールを確認してください．\
