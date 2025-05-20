@@ -1,5 +1,5 @@
 > [!WARNING]
-> Layoutは今後更新される可能性があります。
+> Rulesは今後更新される可能性があります。
 
 ## **Handyman Rules for RCSO2025**
 
@@ -56,6 +56,7 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 - タスクが終了した場合（成功または失敗）: モデレータは「Task_succeeded」 (タスク成功) または「Task_failed」 (タスク失敗) メッセージをロボットに送信します．すべてのタスクが終了した際に，モデレータはロボットに「Mission_complete」メッセージを送信します．
 - 制限時間が終了した場合: モデレータは，タスクが失敗したことを示す「Task_failed」メッセージをロボットに送信します．
 - ロボットは、タスクを達成できない場合に「Give_up」メッセージを送信できます．その場合，タスクは中止され「Task_failed」メッセージが送信され，次のセッションに進みます．
+  - 競技者またはロボットがGive Upを宣言することができます．そのセッションのその時点までの点数を確保され，次のセッションに移ります．
 
 <h3>3. 競技の点数表（Handyman）</h3>
 <p>※ 狭義の点数は変更の可能性があります。ご了承ください。</p>
@@ -71,9 +72,9 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
   </thead>
   <tbody>
     <tr>
-      <td>セッション切り替え</td>
+      <td>-</td>
       <td>0点</td>
-      <td>―</td>
+      <td>セッション切り替え</td>
       <td>20点</td>
     </tr>
     <tr>
@@ -91,40 +92,40 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
     <tr>
       <td>指定された物体の認識</td>
       <td>20点</td>
-      <td>家具名が与えられない状況で物体の認識</td>
+      <td>透明物体</td>
       <td>40点</td>
     </tr>
     <tr>
       <td>指定された物体の把持</td>
       <td>30点</td>
-      <td>透明物体</td>
-      <td>50点</td>
+      <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <td>物体を指定場所へ運搬</td>
       <td>10点</td>
       <td>ランダムな位置にいる人に手渡し※2</td>
-      <td>10点</td>
+      <td>30点</td>
     </tr>
     <tr>
-      <td>物体を指定場所に配置※3</td>
+      <td>物体を指定場所に配置</td>
       <td>20点</td>
-      <td>命令文によって配置場所が非固定</td>
-      <td>40点</td>
+      <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <td><strong>合計</strong></td>
       <td><strong>100点</strong></td>
       <td></td>
-      <td><strong>200点</strong></td>
+      <td><strong>180点</strong></td>
     </tr>
   </tbody>
 </table>
 
 - ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)をご参照ください．
 - ※2：人がいる部屋は，命令文の中で明示されます．
-- ※3：物体の固定の配置場所について
-  - LayoutAの場合は、living_roomのwhite_side_table
-  - LayoutBの場合は、bedroomのiron_bed
+
+### その他
+- 競技中にはWiFiの使用が可能です。命令解析においては、LLMのAPIの使用も許可されています。
 
 [トップに戻る](#handyman)

@@ -5,7 +5,7 @@ RCSO25に出場するには，ROS 2の環境とSIGVerseの環境の2つの環境
 
 ### IP アドレスの設定
 ROS 2 を実行するPCと，Windows側のSIGVerseシミュレータがネットワーク通信できるようにするため，以下のように固定IPアドレスを設定します．
-| Device  | IP Adress |
+| Device  | IP Address |
 | --- | --- |
 | Windows PC | 192.168.0.1 |
 | ROS2 実行PC | 192.168.0.2 |
