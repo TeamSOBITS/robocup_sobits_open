@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[日本語](advice_ja.md) | [English](advice_en.md)
+[日本語](advice_ja.md)
 
 # 物体リスト
 
@@ -8,26 +8,17 @@
 食べ物リストと飲み物リストにカテゴリ分けされます．
 
 
-## 物体リスト(リビング)
+## 物体リスト
 
 | # | 写真 | 名称（英語） | 名称（日本語） | 販売先 |
 | --- | --- | --- | --- | --- |
-| 01 | <img src="../img/coming_soon.jpeg" width="170"> |  name| 名前 | [リンク]() |
-| 02 | <img src="../img/coming_soon.jpeg" width="170"> |  name| 名前 | [リンク]() |
-| 03 | <img src="../img/coming_soon.jpeg" width="170"> | name | 名前 | [リンク]() |
-
-
-## 物体リスト（キッチン）
-
-| # | 写真 | 名称（英語） | 名称（日本語） | 販売先 |
-| --- | --- | --- | --- | --- |
-| 01 | <img src="../img/coming_soon.jpeg" width="170"> |  name| 名前 | [リンク]() |
-| 02 | <img src="../img/coming_soon.jpeg" width="170"> |  name| 名前 | [リンク]() |
-| 03 | <img src="../img/coming_soon.jpeg" width="170"> | name | 名前 | [リンク]() |
-
+| 01 | <img src="../img/sponge.png" width="100"> |  sponge| スポンジ | [リンク](https://jp.daisonet.com/products/4549131695502?_pos=97&_sid=fd5c98686&_ss=r) |
+| 02 | <img src="../img/water.png" width="100"> |  water| 水 | [リンク](https://jp.daisonet.com/products/4573556400014) |
+| 03 | <img src="../img/cup coffee.png" width="100"> | cup coffee | カップコーヒー | [リンク](https://jp.daisonet.com/products/4901201501012) |
+| 04 | <img src="../img/garlic.png" width="100"> | garlic | にんにく | [リンク](https://jp.daisonet.com/products/4901002066598) |
 
 > [!NOTE]
-> 物体は崔研究室F709・萩原研究室F405に1セットずつ用意してあります．
+> 萩原研究室F405に1セット用意してあります．
 > 持ち出しは禁止となりますので，欲しい場合は個人で購入してください．
 
 

@@ -10,32 +10,26 @@
 
 
 
-# RoboCup SOBITS OPEN Junior 2025
+# RoboCup SOBITS Open Junior 2025
 
 This repository is intended to provide various information and competition rules for tournament participants.
 
 
 ## Competition Overview
 
-At SOBITS, we participate annually in the RoboCup Japan Open @Home League, and the RoboCup SOBITS OPEN Junior is designed as an initial step in robot development, where students learn and develop programs through case studies.
+At SOBITS, we participate annually in the "RoboCup Japan Open @Home League." The purpose of the RoboCup SOBITS Open Junior is to provide students with their first step into robot development by having them learn through case studies and develop programs accordingly.
 
-Eligibility for this competition is limited to third-year undergraduate students (B3) in the Hagiwara Laboratory, and the competition is scheduled for the 15th session of the case study class.
+All students enrolled in the Hagiwara Lab's case study course are eligible to participate in this competition, which will be held during the 15th session of the course. As this competition is aimed at improving individual development skills, each participant is required to work on the development alone. You may use either your own developed technologies or SOBITS-provided packages for the competition—either is acceptable.
 
-As this competition aims to improve individual development skills, all participants are required to work individually.
-You are free to either develop all necessary components on your own or utilize existing SOBITS packages—both approaches are acceptable.
+Please note that senior students will not provide guidance or approaches related to development during this competition. You are encouraged to take initiative and act independently.
 
-Please note that no guidance or technical direction will be provided by senior students; we encourage you to take initiative and work independently.
+Developing for this competition requires not only technical skills to implement functionality, but also the ability to overcome obstacles, plan within deadlines, and execute your plans through action. We hope that the RoboCup SOBITS Open Junior will be an opportunity for you to acquire these abilities and that it will benefit your future research activities.
 
-Participation in this competition will require not only technical skills to implement features but also the ability to overcome challenges, the planning skills to manage development under a deadline, and the self-motivation to follow through with your plan.
-
-We sincerely hope that RoboCup SOBITS Open Junior will be a valuable opportunity for you to develop these capabilities and apply them throughout your future research activities.
-Let’s work together—regardless of lab or affiliation—to make RoboCup Japan Open Junior an exciting and collaborative event where we all push each other to grow!
-
-Lastly, we hope you make use of your experience in this competition to take on more advanced development challenges in the Robocup SOBITS OPEN and RoboCup Japan Open @Home League 2026!
-
+Let’s work together—regardless of affiliation—to make the RoboCup SOBITS Open Junior an exciting and competitive event, encouraging one another to improve!
+We also hope you will make use of the experience gained in this competition to aim for higher-level development in the Robocup SOBITS Open and the RoboCup Japan Open @Home League 2026!
 ## Competition Information
 
-RoboCup SOBITS OPEN Junior 2025
+RoboCup SOBITS Open Junior 2025
 
 Organizer: Hagiwara Laboratory – Competition Committee\
 Date: July 16\
@@ -43,21 +37,19 @@ Venue：[Soka University, Faculty of Science and Engineering Building, Room F405
 
 ## Various Materials Related to RoboCup SOBITS OPEN Junior
 
-The slides related to the competition can be found [here](img/RCSOjr25_slides.pdf)
+The slides related to the competition can be found [here](https://docs.google.com/presentation/d/1iEyXjeYyGtTY0rmEQFcdXy2bd0PvROMXHSKK5Gc2SIc/edit?slide=id.gd431007ba2_0_208#slide=id.gd431007ba2_0_208)
 
-Additionally, a demo video showing what the competition looks like is available [here](https://x.com/sobits_soka/status/1558740216487333889)please use it as a reference.
 If you have any questions, including those related to the challenge tasks, feel free to post them in the [Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)
 
 ## Overall Rules & Competition Tasks
 
-- [Bring Me for SOBITS](rules/bm_ja.md)
+- [Bring Me](rules/bm_ja.md)
 - [SOBITS Rules](rules/sr_ja.md)
 
 ## Detailed Information
 
 - [Competition Environment](rules/layout_ja.md)
 - [Object List](rules/objects_list_ja.md)
-- [Q&A](rules/q_and_a_ja.md)
 
 
 <!-- 事前にあげられた質疑応答や[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)にて確定した質問をまとめました -->
@@ -65,15 +57,11 @@ If you have any questions, including those related to the challenge tasks, feel 
 
 ## Additional Advice
 
-
 - [Recommended SOBITS Robots](rules/robots_ja.md)
 - [Development Guide](rules/advice_ja.md)
 
-
 # Additional Information & Change Log
-### Provisional Scoring Table()
-### Object List Added()
-### Location Information Added()
+
 
 <!-- 
 <details>
