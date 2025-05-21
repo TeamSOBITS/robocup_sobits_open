@@ -4,7 +4,7 @@
 # 環境レイアウトと把持・配置地点のリスト
 
 # Layout2019HM01
-<img src="../img/Layout2019HM01_room_seg.png" width="1000">
+<img src="../img/Layout2019HM01_room_and_location.png" width="1000">
 
 ## 把持・配置地点のリスト
 ### living_room
@@ -27,7 +27,7 @@
 - wagon
 
 # Layout2019HM02 (挑戦課題)
-<img src="../img/Layout2019HM02_room_seg.png" width="1000">
+<img src="../img/Layout2019HM02_room_and_location.png" width="1000">
 
 ## 把持・配置地点のリスト
 ### living_room
