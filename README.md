@@ -8,61 +8,55 @@
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
 
-
 # RoboCup SOBITS Open Junior 2025
 
-本リポジトリは大会参加者向けの「各種情報」と「競技ルール」を発信するためのリポジトリです．
+This repository provides various information and competition rules for participants in the RoboCup SOBITS Open Junior competition.
 
+## Competition Overview
 
-## 大会概要
+SOBITS participates annually in the “RoboCup Japan Open @Home League.” The RoboCup SOBITS Open Junior is designed to serve as an entry point into robot development, where students gain experience in programming through case study learning.
 
-SOBITSでは，毎年「RoboCup Japan Open @Home Leage」に参加しており，RoboCup SOBITS Open Juniorでは，
-ロボット開発の第一歩として，学生がケーススタディでの学習を通してプログラム開発を行うことを目的としています．
+Participation in this competition is mandatory for all students enrolled in the Hagiwara Lab’s case study course. The event will be held during the 15th session of the course.
 
-競技会への参加対象者は、萩原研ケーススタディ履修者全員となり，日程は，ケーススタディの第15回目の授業となっています．
-本競技会は個人の開発力向上をはかるための大会となるため，競技の開発は1人で行っていただきます．
-競技で用いる要素技術は各自で開発をしても，SOBITSのパッケージを使用しても，問題ありません．
-本競技会は，基本的に先輩から開発に関するアプローチは行いませんので，主体的に行動するよう心掛けて下さい．
+This competition aims to improve individual development skills. Therefore, each participant must develop their system independently. You may choose to develop the components yourself or use existing SOBITS packages.
 
-本競技会での開発には，機能を実現する技術力はもちろん，壁にぶつかったときの突破力や，期限が決まった中で開発を進める計画力，その計画を実行する行動力など，様々な力が必要になります．
-この「RoboCup SOBITS Open Junior」が，このような力を身に付けるきっかけとなって，みなさんの今後の研究生活に役立てることができると，とても嬉しく思います．
-そして学内外のメンバー問わず，RoboCup SOBITS Open Juniorを一緒に盛り上げて，互いに切磋琢磨する機会にしていきましょう！！
-また，本競技会での経験を活かして，Robocup SOBITS Open，RoboCup Japan Open @Home Leage 2026でレベルの高い開発を行ってください！
+Mentors and seniors will not provide direct technical guidance for this competition. You are encouraged to take initiative and work independently.
 
-## 大会開催情報
+Success in this competition requires not only technical skills but also the ability to overcome challenges, planning skills to manage deadlines, and execution skills to follow through with plans. We hope the RoboCup SOBITS Open Junior provides you with opportunities to build these essential skills for your future research endeavors.
 
-RoboCup SOBIT Open Junior 2025
+Let’s make this competition a great opportunity to learn and grow together, regardless of lab or school affiliation! We also hope your experience here will lead to advanced development in RoboCup SOBITS Open or the RoboCup Japan Open @Home League 2026.
 
-主催者(萩原研究室 コンペティション運営)\
-開催期間：7/16\
-参加対象：萩原研ケーススタディ履修者全員
-場所：[創価大学 理工学部棟 F405](https://www.soka.ac.jp/access/)
+## Competition Information
 
-## RoboCup SOBITS OPEN Juniorに関する各種資料
+**RoboCup SOBITS Open Junior 2025**  
+Organizer: Hagiwara Laboratory, Competition Operations Team  
+Date: July 16  
+Participants: All students enrolled in the Hagiwara Lab case study course  
+Location: [Soka University, Faculty of Science and Engineering, Room F405](https://www.soka.ac.jp/access/)
 
-競技に関するスライドは[こちら](https://docs.google.com/presentation/d/1iEyXjeYyGtTY0rmEQFcdXy2bd0PvROMXHSKK5Gc2SIc/edit?slide=id.gd431007ba2_0_208#slide=id.gd431007ba2_0_208)にあります．
+## Resources Related to RoboCup SOBITS Open Junior
 
-質問があれば運営に直接聞かず，こちらの[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)へお願いします．
+Slides explaining the competition can be found [here](https://docs.google.com/presentation/d/1iEyXjeYyGtTY0rmEQFcdXy2bd0PvROMXHSKK5Gc2SIc/edit?slide=id.gd431007ba2_0_208#slide=id.gd431007ba2_0_208).
 
-## 競技内容・ルール
+If you have any questions, please do not ask the organizers directly. Instead, use the [Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues) page on GitHub.
+
+## Competition Rules
 
 - [Bring Me](rules/bm_ja.md)
-- [SOBITS Rules](rules/sr_ja.md)
 
-## 詳細情報
+## Detailed Information
 
-- [競技環境](rules/layout_ja.md)
-- [物体リスト](rules/objects_list_ja.md)
-<!-- 事前にあげられた質疑応答や[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)にて確定した質問をまとめました -->
+- [Competition Environment](rules/layout_ja.md)
+- [Object List](rules/objects_list_ja.md)
+<!-- A summary of confirmed questions from prior Q&A or GitHub Issues -->
 
+## Additional Advice
 
-## その他のアドバイス
+- [Recommended SOBITS Robots](rules/robots_ja.md)
+- [Development Guide](rules/advice_ja.md)
 
-- [おすすめのSOBITSロボット](rules/robots_ja.md)
-- [開発の手引](rules/advice_ja.md)
+# Updates & Change Log
 
-
-# 追記情報・変更履歴
 
 <!-- 
 <details>

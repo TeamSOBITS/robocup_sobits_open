@@ -14,7 +14,7 @@
 | --- | --- | --- | --- | --- |
 | 01 | <img src="../img/sponge.png" width="100"> |  sponge| スポンジ | [リンク](https://jp.daisonet.com/products/4549131695502?_pos=97&_sid=fd5c98686&_ss=r) |
 | 02 | <img src="../img/water.png" width="100"> |  water| 水 | [リンク](https://jp.daisonet.com/products/4573556400014) |
-| 03 | <img src="../img/cup coffee.png" width="100"> | cup coffee | カップコーヒー | [リンク](https://jp.daisonet.com/products/4901201501012) |
+| 03 | <img src="../img/cup_coffee.png" width="100"> | cup_coffee | カップコーヒー | [リンク](https://jp.daisonet.com/products/4901201501012) |
 | 04 | <img src="../img/garlic.png" width="100"> | garlic | にんにく | [リンク](https://jp.daisonet.com/products/4901002066598) |
 
 > [!NOTE]
