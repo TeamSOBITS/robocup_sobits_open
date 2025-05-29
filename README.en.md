@@ -8,13 +8,13 @@
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
 
-# RoboCup SOBITS Open Junior 2025
+# RoboCup SOBITS Open Beginner 2025
 
-This repository provides various information and competition rules for participants in the RoboCup SOBITS Open Junior competition.
+This repository provides various information and competition rules for participants in the RoboCup SOBITS Open Beginner competition.
 
 ## Competition Overview
 
-SOBITS participates annually in the “RoboCup Japan Open @Home League.” The RoboCup SOBITS Open Junior is designed to serve as an entry point into robot development, where students gain experience in programming through case study learning.
+SOBITS participates annually in the “RoboCup Japan Open @Home League.” The RoboCup SOBITS Open Beginner is designed to serve as an entry point into robot development, where students gain experience in programming through case study learning.
 
 Participation in this competition is mandatory for all students enrolled in the Hagiwara Lab’s case study course. The event will be held during the 15th session of the course.
 
@@ -22,19 +22,19 @@ This competition aims to improve individual development skills. Therefore, each 
 
 Mentors and seniors will not provide direct technical guidance for this competition. You are encouraged to take initiative and work independently.
 
-Success in this competition requires not only technical skills but also the ability to overcome challenges, planning skills to manage deadlines, and execution skills to follow through with plans. We hope the RoboCup SOBITS Open Junior provides you with opportunities to build these essential skills for your future research endeavors.
+Success in this competition requires not only technical skills but also the ability to overcome challenges, planning skills to manage deadlines, and execution skills to follow through with plans. We hope the RoboCup SOBITS Open Beginner provides you with opportunities to build these essential skills for your future research endeavors.
 
 Let’s make this competition a great opportunity to learn and grow together, regardless of lab or school affiliation! We also hope your experience here will lead to advanced development in RoboCup SOBITS Open or the RoboCup Japan Open @Home League 2026.
 
 ## Competition Information
 
-**RoboCup SOBITS Open Junior 2025**  
+**RoboCup SOBITS Open Beginner 2025**  
 Organizer: Hagiwara Laboratory, Competition Operations Team  
 Date: July 16  
 Participants: All students enrolled in the Hagiwara Lab case study course  
 Location: [Soka University, Faculty of Science and Engineering, Room F405](https://www.soka.ac.jp/access/)
 
-## Resources Related to RoboCup SOBITS Open Junior
+## Resources Related to RoboCup SOBITS Open Beginner
 
 Slides explaining the competition can be found [here](https://docs.google.com/presentation/d/1iEyXjeYyGtTY0rmEQFcdXy2bd0PvROMXHSKK5Gc2SIc/edit?slide=id.gd431007ba2_0_208#slide=id.gd431007ba2_0_208).
 

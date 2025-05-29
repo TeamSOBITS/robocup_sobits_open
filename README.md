@@ -9,14 +9,14 @@
 [![License][license-shield]][license-url]
 
 
-# RoboCup SOBITS Open Junior 2025
+# RoboCup SOBITS Open Beginner 2025
 
 本リポジトリは大会参加者向けの「各種情報」と「競技ルール」を発信するためのリポジトリです．
 
 
 ## 大会概要
 
-SOBITSでは，毎年「RoboCup Japan Open @Home Leage」に参加しており，RoboCup SOBITS Open Juniorでは，ロボット開発の第一歩として，学生がケーススタディでの学習を通してプログラム開発を行うことを目的としています．
+SOBITSでは，毎年「RoboCup Japan Open @Home Leage」に参加しており，RoboCup SOBITS Open Beginnerでは，ロボット開発の第一歩として，学生がケーススタディでの学習を通してプログラム開発を行うことを目的としています．
 
 競技会への参加対象者は、萩原研ケーススタディ履修者全員となり，日程は，ケーススタディの第15回目の授業となっています．
 本競技会は個人の開発力向上をはかるための大会となるため，競技の開発は1人で行っていただきます．
@@ -24,20 +24,20 @@ SOBITSでは，毎年「RoboCup Japan Open @Home Leage」に参加しており�
 本競技会は，基本的に先輩から開発に関するアプローチは行いませんので，主体的に行動するよう心掛けて下さい．
 
 本競技会での開発には，機能を実現する技術力はもちろん，壁にぶつかったときの突破力や，期限が決まった中で開発を進める計画力，その計画を実行する行動力など，様々な力が必要になります．
-この「RoboCup SOBITS Open Junior」が，このような力を身に付けるきっかけとなって，みなさんの今後の研究生活に役立てることができると，とても嬉しく思います．
-そして学内外のメンバー問わず，RoboCup SOBITS Open Juniorを一緒に盛り上げて，互いに切磋琢磨する機会にしていきましょう！！
+この「RoboCup SOBITS Open Beginner」が，このような力を身に付けるきっかけとなって，みなさんの今後の研究生活に役立てることができると，とても嬉しく思います．
+そして学内外のメンバー問わず，RoboCup SOBITS Open Beginnerを一緒に盛り上げて，互いに切磋琢磨する機会にしていきましょう！！
 また，本競技会での経験を活かして，Robocup SOBITS Open，RoboCup Japan Open @Home Leage 2026でレベルの高い開発を行ってください！
 
 ## 大会開催情報
 
-RoboCup SOBIT Open Junior 2025
+RoboCup SOBIT Open Beginner 2025
 
 主催者(萩原研究室 コンペティション運営)\
 開催期間：7/16\
 参加対象：萩原研ケーススタディ履修者全員
 場所：[創価大学 理工学部棟 F405](https://www.soka.ac.jp/access/)
 
-## RoboCup SOBITS OPEN Juniorに関する各種資料
+## RoboCup SOBITS OPEN Beginnerに関する各種資料
 
 競技に関するスライドは[こちら](https://docs.google.com/presentation/d/1iEyXjeYyGtTY0rmEQFcdXy2bd0PvROMXHSKK5Gc2SIc/edit?slide=id.gd431007ba2_0_208#slide=id.gd431007ba2_0_208)にあります．
 
