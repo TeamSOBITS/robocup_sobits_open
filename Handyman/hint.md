@@ -1,5 +1,8 @@
 # 初めての方へ：何から始めればよいか
 
+# まずは環境構築をしましょう
+[競技における事前セットアップ](https://github.com/TeamSOBITS/handyman-ros/blob/humble-devel/handyman-ros/launch/teleop_key.launch.py](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/setup.md))を参考に環境構築をしましょう．
+
 ### Teleopを用いてロボットを操作してみよう
 - 得点獲得までに踏まなければならないステップが非常に多いため，handyman-rosパッケージにある[teleop_key.launch.py](https://github.com/TeamSOBITS/handyman-ros/blob/humble-devel/handyman-ros/launch/teleop_key.launch.py)で実行してみるなどしてイメージを掴んでみてください．
 
