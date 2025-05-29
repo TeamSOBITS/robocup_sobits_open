@@ -48,7 +48,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 ## 競技内容・ルール
 
 - [Handyman Rules for RCSO2025](Handyman/rules_ja.md)
-- [Hints for Beginner](Handyman/hint.md)
+- [初めての方へ](Handyman/hint.md)
 
 
 ## 詳細情報
