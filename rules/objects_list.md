@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-[日本語](advice_ja.md)
-
 # 物体リスト
 
 本大会に用いられる物体リストです．\
@@ -12,8 +10,8 @@
 
 | # | 写真 | 名称（英語） | 名称（日本語） | 販売先 |
 | --- | --- | --- | --- | --- |
-| 01 | <img src="../img/sponge.png" width="100"> |  sponge| スポンジ | [リンク](https://jp.daisonet.com/products/4549131695502?_pos=97&_sid=fd5c98686&_ss=r) |
-| 02 | <img src="../img/water.png" width="100"> |  water| 水 | [リンク](https://jp.daisonet.com/products/4573556400014) |
+| 01 | <img src="../img/sponge.png" width="100"> |  sponge| スポンジ | [リンク](https://netsuper.rakuten.co.jp/ellena/item/4901117601042/) |
+| 02 | <img src="../img/coke.png" width="100"> |  coke| コーラ | [リンク](https://www.amazon.co.jp/dp/B004Y9IXZW) |
 | 03 | <img src="../img/cup_coffee.png" width="100"> | coffee | カップコーヒー | [リンク](https://jp.daisonet.com/products/4901201501012) |
 | 04 | <img src="../img/garlic.png" width="100"> | garlic | にんにく | [リンク](https://jp.daisonet.com/products/4901002066598) |
 
