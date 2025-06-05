@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-[日本語](README.md) | [English](README.en.md)
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -45,19 +44,19 @@ RoboCup SOBIT Open Beginner 2025
 
 ## 競技内容・ルール
 
-- [Bring Me](rules/bm_ja.md)
+- [Bring Me](rules/bm.md)
 
 ## 詳細情報
 
-- [競技環境](rules/layout_ja.md)
-- [物体リスト](rules/objects_list_ja.md)
+- [競技環境](rules/layout.md)
+- [物体リスト](rules/objects_list.md)
 <!-- 事前にあげられた質疑応答や[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)にて確定した質問をまとめました -->
 
 
 ## その他のアドバイス
 
-- [おすすめのSOBITSロボット](rules/robots_ja.md)
-- [開発の手引](rules/advice_ja.md)
+- [おすすめのSOBITSロボット](rules/robots.md)
+- [開発の手引](rules/advice.md)
 
 
 # 追記情報・変更履歴

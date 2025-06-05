@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-[日本語](robots_ja.md) | [English](robots_en.md)
-
 # 本大会に参加おすすめロボット
 
 本大会はSOBITS主催の大会で，これらのロボットを基準に難易度設定をしております．\

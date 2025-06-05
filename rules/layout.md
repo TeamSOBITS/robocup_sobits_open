@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-[日本語](layout_ja.md) | [English](layout_en.md)
-
 # 本大会に使用される競技環境（アリーナ）
 
 ## 全体図

@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-[日本語](bm_ja.md)
-
 # Bring Me for SOBITS
 
 ## メインゴール
