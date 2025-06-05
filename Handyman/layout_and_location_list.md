@@ -32,7 +32,6 @@
 ## 把持・配置地点のリスト
 ### living_room
 - white_side_table
-- sofa
 - round_low_table
 - square_low_table
 
@@ -41,7 +40,6 @@
 - wooden_side_table
 
 ### lobby
-- sofa
 - armchair
 - wooden_side_table
 - wooden_shelf
