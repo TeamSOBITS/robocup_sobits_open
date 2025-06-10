@@ -43,6 +43,6 @@
 - armchair
 - wooden_side_table
 - wooden_shelf
-- wagon_1
+- wagon
 - white_side_table
 - dining_table
