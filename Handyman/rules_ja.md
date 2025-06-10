@@ -1,5 +1,5 @@
 > [!WARNING]
-> Rulesは今後更新される可能性があります。
+> Rulesは今後更新される可能性があります．
 
 ## **Handyman Rules for RCSO2025**
 
@@ -14,14 +14,14 @@ RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスク�
 
 ### 1. 競技内容(Handyman)
 
-Handymanタスクでは，与えられた命令文を解析し、ロボットが自律的に移動し，注文された物を掴み，別のところまで運ぶタスクを行います．
+Handymanタスクでは，与えられた命令文を解析し，ロボットが自律的に移動し，注文された物を掴み，別のところまで運ぶタスクを行います．
 今回は競技を簡単にするために，把持・配置地点のリストや把持物体などの位置を含めた情報を掲載します．
 環境や把持物体はランダムに決定されます．
 
 - 本競技は，1人3セッション挑戦することができ，3セッションの総合得点で順位を決めます．
-- 実機と違い、タスクのスキップ等はできません．
-- 競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし、次セッションから再起動できます
-- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)、や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しているので、ご確認ください．
+- 実機と違い，タスクのスキップ等はできません．
+- 競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし，次セッションから再起動できます
+- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)，や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しているので，ご確認ください．
 - 制限時間は各セッション600秒です．
 
 ### 2. 競技手順(Handyman)
@@ -39,7 +39,7 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 
 具体的な競技手順の流れは以下の通りになります．
 
-1. モデレータは「Are_you_ready?」をロボットへ送信します。そして同時に「Environment」メッセージも発信します．
+1. モデレータは「Are_you_ready?」をロボットへ送信します．そして同時に「Environment」メッセージも発信します．
 2. ロボットは「I_am_ready」メッセージをモデレータに送信します．
 3. モデレータはロボットに「指示」のメッセージを送ります．(例: Go to the XXXX, grasp the YYYY and bring it here.)
 4. 命令理解が完了した後に，ロボットは「置き位置と掴む物体」をモデレータに送信します．
@@ -55,11 +55,11 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 11. ロボットは「Task_finished」メッセージをモデレータに送信します.
 - タスクが終了した場合（成功または失敗）: モデレータは「Task_succeeded」 (タスク成功) または「Task_failed」 (タスク失敗) メッセージをロボットに送信します．すべてのタスクが終了した際に，モデレータはロボットに「Mission_complete」メッセージを送信します．
 - 制限時間が終了した場合: モデレータは，タスクが失敗したことを示す「Task_failed」メッセージをロボットに送信します．
-- ロボットは、タスクを達成できない場合に「Give_up」メッセージを送信できます．その場合，タスクは中止され「Task_failed」メッセージが送信され，次のセッションに進みます．
+- ロボットは，タスクを達成できない場合に「Give_up」メッセージを送信できます．その場合，タスクは中止され「Task_failed」メッセージが送信され，次のセッションに進みます．
   - 競技者またはロボットがGive Upを宣言することができます．そのセッションのその時点までの点数を確保され，次のセッションに移ります．
 
 <h3>3. 競技の点数表（Handyman）</h3>
-<p>※ 競技の点数は変更の可能性があります。ご了承ください。</p>
+<p>※ 競技の点数は変更の可能性があります．ご了承ください．</p>
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -125,7 +125,44 @@ Handymanタスクでは，与えられた命令文を解析し、ロボットが
 - ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
 - ※2：人がいる部屋は，命令文の中で明示されます．
 
+<h3>4. 補足 </h3>
+
+- 部屋名，家具名，物体名の命名規則
+  - 複数の単語から構成される名前において，単語間をスペースではなくアンダースコア（`_`）で区切る命名規則を採用しています．
+    <details>
+      <summary>例を表示する</summary>
+
+      - living_room
+      - white_side_table 
+      - white_cup
+      
+    </details>
+
+- 命令文章の文法（挑戦なしの場合）
+  - `Go to the (ROOM_1), grasp the (OBJECT) on the (FURNITURE_1) and put it on the (FURNITURE_2) in the (ROOM_2).`
+  - 動詞は固定されておらず，以下のような類義語に置き換えられることがあります．
+    - Go：Navigate, Move 等
+    - grasp：pick up, get 等
+    - put：locate, place, move 等
+
+- 現在のSIGVerse採点システムでは，以下の採点項目を考慮していないため，得点するには追加処理をする必要があります．
+  - 命令文章の解析
+    - 与えられた命令文章を解析していることをlogに示してください．
+    - Terminalにlogを出力する項目
+      - `Go to the (ROOM_1), grasp the (OBJECT) on the (FURNITURE_1) and put it on the (FURNITURE_2) in the (ROOM_2).`
+      - 行くべき場所 (**ROOM_1**)
+      - 把持すべき物体 (**OBJECT**)
+      - 物体が置かれている家具 (**FURNITURE_1**)
+      - 置くべき家具 (**FURNITURE_2**)
+      - 置くべき家具の部屋(**ROOM_2**)
+    - 出力項目は全部で5つあり，3つ以上の出力項目が正解であれば，点数を獲得します．
+  - 物体認識
+    - 物体認識が成功していることを示す画像を保存してください．
+      - **バウンディングボックス**
+      - **物体名**
+    - その画像で成功を判断し，点数を獲得します．
+
 ### その他
-- 競技中にはWiFiの使用が可能です。命令解析においては、LLMのAPIの使用も許可されています。
+- 競技中にはWiFiの使用が可能です．命令解析においては，LLMのAPIの使用も許可されています．
 
 [トップに戻る](#handyman)

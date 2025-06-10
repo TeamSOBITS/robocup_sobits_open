@@ -9,6 +9,14 @@
 ### ルールを確認しましょう
 - [Handyman Rules for RCSO2025](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/rules_ja.md)にあるルールを読みましょう．
 
+### 練習問題で練習しましょう
+- 運営側が練習するための問題（[Google Drive](https://drive.google.com/drive/folders/1SWfb7NuYQMf4eMNAOcCy9lm2-Bk9tO0o?usp=sharing)）を作成しましたので，ぜひご活用ください．
+  - Window側のPCにダウンロードしてください．ダウンロードしたファイルをパス`handyman-unity-master\handyman-unity-master\SIGVerseConfig\Handyman`に移動して，以下のファイル名に変換してください．
+    - EnvironmentInfo_01.json
+    - AvatarMotions_01.dat
+  - 切り替えの練習をしたい場合，`EnvironmentInfo_02.json`と`AvatarMotions_02.dat`も併せて用意してください．
+- 何の練習問題が含まれているかは，[RCSOinSummer2025_練習問題一覧](https://docs.google.com/spreadsheets/d/1sA8g8CZICu-WVadZzMxreUlOkIxEBMaMXxDLx5-GPAQ/edit?usp=sharing)にてご確認いただけます．
+
 ### 物体認識には何を使えばいい？
 - 初心者の方にとって最も始めやすいのは，[YOLO（You Only Look Once）](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf) 系の手法ではないかと思います．
 - YOLOは，リアルタイムで高速かつ高精度な物体検出が可能なモデルで，多くのプロジェクトで広く利用されています．
