@@ -20,6 +20,6 @@
 ### 物体認識には何を使えばいい？
 - 初心者の方にとって最も始めやすいのは，[YOLO（You Only Look Once）](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf) 系の手法ではないかと思います．
 - YOLOは，リアルタイムで高速かつ高精度な物体検出が可能なモデルで，多くのプロジェクトで広く利用されています．
-- 以下の記事では，YOLOの学習方法について詳しく解説されていますので，ぜひ参考にしてください．
+- 以下のリポジトリを利用することで，YOLOのデータセット作成，学習，推論をすることができます．
+  - [yolo_dataset](https://github.com/TeamSOBITS/yolo_dataset/tree/develop)
   - [yolo_ros](https://github.com/TeamSOBITS/yolo_ros)
-  - [How to use YOLO](https://esa-pages．io/p/sharing/19758/posts/82/148313344c3b93bac860.html)
