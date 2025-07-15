@@ -39,7 +39,9 @@ RoboCup SOBIT Open Beginner 2025
 ## RoboCup SOBITS OPEN Beginnerに関する各種資料
 
 競技に関するスライドは[こちら](https://docs.google.com/presentation/d/1iEyXjeYyGtTY0rmEQFcdXy2bd0PvROMXHSKK5Gc2SIc/edit?slide=id.gd431007ba2_0_208#slide=id.gd431007ba2_0_208)にあります．
+
 当日のスケジュールは[こちら](https://docs.google.com/spreadsheets/d/11BofU00k21E_6LhowvTj4vRxHjYkR3oZGaSlHJ5LxhY/edit?gid=0#gid=0)
+
 質問があれば運営に直接聞かず，こちらの[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)へお願いします．
 
 ## 競技内容・ルール
