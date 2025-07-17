@@ -15,3 +15,13 @@ A. SOBITSメンバーとして参加する人は原則ローカルです．\
 A. 本大会は初心者向けの大会であるため，ロボットが壁や家具，人に衝突しても減点されないことにします．
 
 </details>
+
+<details>
+<summary>Q. Interactive Cleanupにおいて，物体は目的地はどのようになっていますか？</summary>
+
+A. Interactive Cleanupにおいて，物体はRoboCup Japan Open 2025の物体リストから選ばれます．
+また，目的地に関しても同様です．
+
+</details>
+
+
