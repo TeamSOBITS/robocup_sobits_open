@@ -20,7 +20,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 **RoboCup SOBITS OPEN 2025 in Summer**
 
 **主催者**：[Team SOBITS](https://home.soka.ac.jp/~choi/index.html) \
-**開催期間**：2025年8月7日（木）- 8月8日（金）\
+**開催期間**：2025年8月7日（木）[予備日： 8月8日（金）] \
 **場所**：[創価大学 理工学部棟 教室F405](https://www.soka.ac.jp/access/) \
 **質問や問い合わせ**：[team.sobits@gmail.com](team.sobits@gmail.com) 
 
@@ -57,6 +57,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 - [環境レイアウトと把持・配置地点のリスト](Handyman/layout_and_location_list.md)
 - [把持物体リスト](Handyman/object_list.md)
 - [練習問題](https://drive.google.com/drive/folders/1SWfb7NuYQMf4eMNAOcCy9lm2-Bk9tO0o?usp=sharing)
+- [コード提出について](submission.md)
 - [Q&A](Handyman/q_and_a_ja.md)
 
 ---
@@ -68,3 +69,4 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 - (2025.6.11)　YOLOの使い方についてのリンクを更新
 - (2025.6.14)　「置き位置と掴む物体」，「Object_recognized」，「Does_not_exist」メッセージを送らないようにルールを修正．物体の手渡し時における判定範囲について追記．
 - (2025.7.17) Interactive Cleanupにおいて、物体と目的地の情報についての情報を[Q&A](Handyman/q_and_a_ja.md)に追記．
+- (2025.7.31) コード提出について追記．
