@@ -71,7 +71,7 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
     <tr>
       <td>-</td>
       <td>0点</td>
-      <td>セッション切り替え</td>
+      <td>セッション切り替え※3※4</td>
       <td>20点</td>
     </tr>
     <tr>
@@ -121,6 +121,8 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
 
 - ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
 - ※2：人がいる部屋は，命令文の中で明示されます．また，手渡し動作の判定の範囲については[こちら(物体の運搬動作)](https://github.com/RoboCupAtHomeJP/AtHome2025/blob/main/rules/S-OPL/hm_ja.md#%E7%89%A9%E4%BD%93%E3%81%AE%E9%81%8B%E6%90%AC%E5%8B%95%E4%BD%9C)を参照してください．
+- ※3：セッション切り替えはセッション2と3のみで挑戦できます.
+- ※4：セッション切り替え後に点数が入らなかった場合，SIGVerse側で「I_am_ready」が受信できているか確認できた場合に，点数が入ります．
 
 <h3>4. 補足 </h3>
 
