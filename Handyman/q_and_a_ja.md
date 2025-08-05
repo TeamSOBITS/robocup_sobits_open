@@ -24,4 +24,15 @@ A. Interactive Cleanupにおいて，物体はRoboCup Japan Open 2025の物体�
 
 </details>
 
+<details>
+<summary>Q. 去年のrslの質問でliving roomには _が無いため本番は無しになっていましたが，今年も無しになるのでしょうか？</summary>
+
+A. 部屋名，家具名，物体名の命名規則に関して，以下の[Githubリンク](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/rules_ja.md#4-補足-) にあるリストの命名に従います．
+- 二つ単語で構成される部屋名に関して，`_`で書き換えることです．
+  - 例：living_room，white_side_table
+環境レイアウトと把持・配置地点のリスト：[layout_and_location_list](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md) 
+把持物体リスト： [object_list](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)
+
+</details>
+
 
