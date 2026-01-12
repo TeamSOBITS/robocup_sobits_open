@@ -1,35 +1,40 @@
 > [!WARNING]
 > Rulesは今後更新される可能性があります．
 
-## **Handyman Rules for RCSO2025**
+## **Restaurant Rules for RCSO2025**
 
-RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスクについて説明していきます．
+ここでは，RoboCup SOBITS Open Real Robot League2025で行うRestaurantタスクについて説明します．
 
 ## **目次**
 
-1. [競技内容(Handyman)](#1-競技内容handyman)
-2. [競技手順(Handyman)](#2-競技手順handyman)
-3. [競技の点数表(Handyman)](#3-競技の点数表handyman)
+1. [競技内容(Restaurant)](#1-競技内容restaurant)
+2. [競技手順(Restaurant)](#2-競技手順restaurant)
+3. [競技の点数表(Restaurant)](#3-競技の点数表restaurant)
 
 
-### 1. 競技内容(Handyman)
+### 1. 競技内容(Restaurant)
 
-Handymanタスクでは，与えられた命令文を解析し，ロボットが自律的に移動し，注文された物を掴み，別のところまで運ぶタスクを行います．
+Restaurantタスクでは，従業員であるロボットがゲストの場所まで行き，注文された商品を取りに行き再度ゲストまで届けに行くタスクを行います．
 今回は競技を簡単にするために，把持・配置地点のリストや把持物体などの位置を含めた情報を掲載します．
-環境や把持物体はランダムに決定されます．
+把持物体は競技内容によって変わります．
 
-- 本競技は，1人3セッション挑戦することができ，3セッションの総合得点で順位を決めます．
+- 制限時間は10分です．
+- リスタートは可能ですが，リスタート直後に獲得する点数のみ半分になります．
+- 基本的に競技環境にいる人間はシナリオに準拠し，かつロボットの指示にのみ従います．
+- [環境レイアウトと物体の配置リスト](/Restaurant/layout_and_location_list.md)と[把持物体リスト](/Restaurant/object_list.md)は事前に公開をしているのでご確認ください．※現在作成中
+
+<!-- - 本競技は，1人3セッション挑戦することができ，3セッションの総合得点で順位を決めます．
 - 実機と違い，タスクのスキップ等はできません．
 - 競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし，次セッションから再起動できます
-- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)，や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しているので，ご確認ください．
-- 制限時間は各セッション600秒です．
+- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Restaurant/layout_and_location_list.md)，や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Restaurant/object_list.md)は，事前に公開しているので，ご確認ください．
+- 制限時間は各セッション600秒です． -->
 
-### 2. 競技手順(Handyman)
+### 2. 競技手順(Restaurant)
 
 競技の手順は以下の通りになります．
 
-1. モデレータの指示を聞く
-2. 指示された部屋へ移動する
+1. ドアオープン
+2. 客の場所までナビゲーション
 3. 指示された物体を探索する
 4. その物体を把持する
 5. 指示された置き位置へ物体を運ぶ
@@ -55,7 +60,8 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
 - ロボットは，タスクを達成できない場合に「Give_up」メッセージを送信できます．その場合，タスクは中止され「Task_failed」メッセージが送信され，次のセッションに進みます．
   - 競技者またはロボットがGive Upを宣言することができます．そのセッションのその時点までの点数を確保され，次のセッションに移ります．
 
-<h3>3. 競技の点数表（Handyman）</h3>
+### 3. 競技の点数表（Restaurant）
+<!-- <h3>3. 競技の点数表（Restaurant）</h3> -->
 <p>※ 競技の点数は変更の可能性があります．ご了承ください．</p>
 
 <table border="1" cellspacing="0" cellpadding="6">
@@ -119,7 +125,7 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
   </tbody>
 </table>
 
-- ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
+- ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Restaurant/layout_and_location_list.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
 - ※2：人がいる部屋は，命令文の中で明示されます．また，手渡し動作の判定の範囲については[こちら(物体の運搬動作)](https://github.com/RoboCupAtHomeJP/AtHome2025/blob/main/rules/S-OPL/hm_ja.md#%E7%89%A9%E4%BD%93%E3%81%AE%E9%81%8B%E6%90%AC%E5%8B%95%E4%BD%9C)を参照してください．
 - ※3：セッション切り替えはセッション2と3のみで挑戦できます.
 - ※4：セッション切り替え後に点数が入らなかった場合，SIGVerse側で「I_am_ready」が受信できているか確認できた場合に，点数が入ります．
@@ -171,4 +177,4 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
 ### その他
 - 競技中にはWiFiの使用が可能です．命令解析においては，LLMのAPIの使用も許可されています．
 
-[トップに戻る](#handyman)
+[トップに戻る](#Restaurant)

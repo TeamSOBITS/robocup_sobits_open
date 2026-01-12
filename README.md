@@ -49,6 +49,7 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 ## 競技内容・ルール
 
 - [TBD]
+- [Restaurant Rules for RCSO2025](Restaurant/rules_ja.md)
 <!-- - [Handyman Rules for RCSO2025](Handyman/rules_ja.md)
 - [初めての方へ](Handyman/hint.md) -->
 
