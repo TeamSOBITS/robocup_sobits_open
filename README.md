@@ -21,7 +21,7 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 
 **主催者**：[Team SOBITS](https://home.soka.ac.jp/~teamsobits/) \
 **開催期間**：2026年2月13日（金）[予備日： 2月14日（土）] \
-**場所**：[創価大学 理工学部棟 教室F405](https://www.soka.ac.jp/access/) \
+**場所**：創価大学 理工学部棟 教室E301 \
 **質問や問い合わせ**：[team.sobits@gmail.com](team.sobits@gmail.com) 
 
 > [!NOTE] 
@@ -34,6 +34,10 @@ SOBITSでは，RoboCupを模した競技会である「RoboCup SOBITS Open」を
 該当研究室以外の参加登録に関しては，はじめの質問にてその他を選択肢し，研究室に所属している場合は所属先研究室を．研究室に所属していない場合は学年を記入してください\
 
 **参加登録締切** : 2026年1月30日（金）
+
+## 使用ロボット
+
+競技本番で使用する予定のロボットを[こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdM8FjWj9deukk6LdAnNSSu6UIpFRCNQlGo1mddorGmJ_c-0Q/viewform)に入力をお願いいたします。
 
 ## RoboCup SOBITS OPENに関する各種資料
 

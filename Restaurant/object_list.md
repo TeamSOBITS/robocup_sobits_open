@@ -20,6 +20,9 @@
 | --- | --- | --- | 
 | 01 | <img src="../img/graspable_object_list/water.jpg" width="150"> | water（drink） | 
 
+ここで表示しているオブジェクトはF709教室にある以下の画像の場所に置いてあります。
+
+<img src="../img/graspable_object_list/object_place.JPG" width="500">
 
 
 
