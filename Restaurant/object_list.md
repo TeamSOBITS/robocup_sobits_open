@@ -30,8 +30,9 @@
 | # | 写真 | 名称（カテゴリ） | 
 | --- | --- | --- | 
 | 01 | <img src="../img/furniture_list/customer&apos;s_desk.jpg" width="150"> | customer's_desk（desk） | 
-| 02 | <img src="../img/furniture_list/white_side_table.jpg" width="150"> | white_side_table（desk） | 
-| 03 | <img src="../img/furniture_list/customer&apos;s_chair.jpg" width="150"> | customer's_chair（chair） | 
+| 02(環境A) | <img src="../img/furniture_list/white_side_table.jpg" width="150"> | white_side_table（desk） | 
+| 03(環境B) | <img src="../img/furniture_list/wood_table.jpg" width="150"> | wood_table（desk） | 
+| 04 | <img src="../img/furniture_list/customer&apos;s_chair.jpg" width="150"> | customer's_chair（chair） | 
 
 
 
