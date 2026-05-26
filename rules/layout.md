@@ -4,7 +4,7 @@
 
 ## 全体図
 
-RoboCup SOBITS OPEN Beginner 2025で使用されるアリーナは以下の画像のようになります．\
+Pre RoboCup SOBITS Open 2026で使用されるアリーナは以下の画像のようになります．\
 ![Arena](../img/sobits_open_arena.png)
 
 
