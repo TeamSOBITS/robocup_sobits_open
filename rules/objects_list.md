@@ -2,19 +2,18 @@
 
 # 物体リスト
 
-本大会に用いられる物体リストです．\
-食べ物リストと飲み物リストにカテゴリ分けされます．
+本大会に用いられる物体リストです．
+<!-- 食べ物リストと飲み物リストにカテゴリ分けされます． -->
 
 
 ## 物体リスト
 
-| # | 写真 | 名称（英語） | 名称（日本語） | 販売先 |
-| --- | --- | --- | --- | --- |
-| 01 | <img src="../img/sponge.png" width="100"> |  sponge| スポンジ | [リンク](https://netsuper.rakuten.co.jp/ellena/item/4901117601042/) |
-| 02 | <img src="../img/coke.png" width="100"> |  coke| コーラ | [リンク](https://www.amazon.co.jp/dp/B004Y9IXZW) |
-| 03 | <img src="../img/cup_coffee.png" width="100"> | coffee | カップコーヒー | [リンク](https://jp.daisonet.com/products/4901201501012) |
-| 04 | <img src="../img/garlic.png" width="100"> | garlic | にんにく | [リンク](https://jp.daisonet.com/products/4901002066598) |
-
+| # | 写真 | 名称（英語） | 名称（日本語） |
+| --- | --- | --- | --- |
+| 01 | <img src="../img/sponge.png" width="100"> | sponge | スポンジ |
+| 02 | <img src="../img/tea.png" width="100"> | tea | お茶 |
+| 03 | <img src="../img/chips.png" width="100"> | chips | チップス |
+| 04 | <img src="../img/bags.png" width="100"> | bags | ジップロック |
 > [!NOTE]
 > 萩原研究室F405に1セット用意してあります．
 > 持ち出しは禁止となりますので，欲しい場合は個人で購入してください．
