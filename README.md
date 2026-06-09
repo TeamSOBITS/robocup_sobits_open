@@ -51,7 +51,7 @@ Pre RoboCup SOBITS Open 2026
 ## 詳細情報
 
 - [タスク内容, スコアシート](img/score.pdf)
-- 競技環境[coming soon]
+- [競技環境](rules/layout.md)
 - [物体リスト](rules/objects_list.md)
 <!-- 事前にあげられた質疑応答や[Issue](https://github.com/TeamSOBITS/robocup_sobits_open/issues)にて確定した質問をまとめました -->
 

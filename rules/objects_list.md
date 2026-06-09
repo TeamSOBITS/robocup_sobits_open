@@ -13,7 +13,7 @@
 | 01 | <img src="../img/sponge.png" width="100"> | sponge | スポンジ |
 | 02 | <img src="../img/tea.png" width="100"> | tea | お茶 |
 | 03 | <img src="../img/chips.png" width="100"> | chips | チップス |
-| 04 | <img src="../img/bags.png" width="100"> | bags | ジップロック |
+| 04 | <img src="../img/coal.png" width="100"> | air freshener | 脱臭剤
 > [!NOTE]
 > 萩原研究室F405に1セット用意してあります．
 > 持ち出しは禁止となりますので，欲しい場合は個人で購入してください．
