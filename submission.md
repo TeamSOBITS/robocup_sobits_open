@@ -8,7 +8,7 @@
   - SOBITS Member
     - NASサーバの以下の場所に，上記の命名規則に従って個人名のフォルダを作成しアップロードしてください
       ```
-      /volume1/Competition/RoboCup/RCSO25_summer/code_submission/
+      /volume1/Competition/RoboCup/RCSO26_summer/code_submission/
       ```
   - Non-SOBITS Member
     - 以下の場所に上記の命名規則に従って個人名のフォルダを作成しアップロードしてください

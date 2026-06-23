@@ -17,15 +17,16 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 ## 大会開催情報
 
-**RoboCup SOBITS OPEN 2025 in Summer**
+**RoboCup SOBITS OPEN 2026 in Summer**
 
-**主催者**：[Team SOBITS](https://home.soka.ac.jp/~choi/index.html) \
-**開催期間**：2025年8月7日（木）[予備日： 8月8日（金）] \
-**場所**：[創価大学 理工学部棟 教室F405](https://www.soka.ac.jp/access/) \
-**質問や問い合わせ**：[team.sobits@gmail.com](team.sobits@gmail.com) 
+**主催**：[Team SOBITS](https://home.soka.ac.jp/~choi/index.html) \
+**開催日時**：2026年8月6日（木） \
+**予備日**：2026年8月7日（金） \
+**会場**：[創価大学 理工学部 萩原研究室（F405）](https://www.soka.ac.jp/access/) \
+**お問い合わせ先**：[team.sobits@gmail.com](team.sobits@gmail.com)
 
 > [!NOTE] 
-> 8月7日-8月8日の参加ができない場合，これより早い日程で競技を行うことができます．ただし，事前の相談をした上で日程調整を行った場合に限ります．それ以外は認められません．
+> 8月6日-8月7日の参加ができない場合，これより早い日程で競技を行うことができます．ただし，事前の相談をした上で日程調整を行った場合に限ります．それ以外は認められません．
 
 
 ## 参加登録
@@ -34,7 +35,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 創価大学生以外の参加登録に関しては，はじめの質問にて学外であることを教えていただければと思います．\
 更に難易度の上がったInteractive Cleanupに挑戦したい方がいたら検討しますので，最後の記入欄に教えてください．
 
-**参加登録締切** : 2025年7月25日（金）
+**参加登録締切** : 2026年7月24日（金）
 
 ## RoboCup SOBITS OPENに関する各種資料
 
@@ -47,7 +48,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 ## 競技内容・ルール
 
-- [Handyman Rules for RCSO2025](Handyman/rules_ja.md)
+- [Handyman Rules for RCSO2026](Handyman/rules_ja.md)
 - [初めての方へ](Handyman/hint.md)
 
 
@@ -59,11 +60,12 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 - [練習問題](https://drive.google.com/drive/folders/1SWfb7NuYQMf4eMNAOcCy9lm2-Bk9tO0o?usp=sharing)
 - [コード提出について](submission.md)
 - [Q&A](Handyman/q_and_a_ja.md)
-- [スコアシート](img/RCSO2025_score_sheet.png)
+- スコアシート（2026年度版は更新予定．現在の点数表は[Handyman Rules for RCSO2026](Handyman/rules_ja.md#3-競技の点数表handyman)を参照してください）
 
 ---
 
 ## 追記情報・変更履歴
+- (2026.6.23)　RCSO2026ブランチ作成．大会開催情報とHandyman Rulesを2026年度版の草案として更新
 - (2025.5.13)　RCSO2025ブランチ作成 
 - (2025.5.15)　競技環境，地点名リスト，物体リストを公開．また，環境セットアップに関するヒントおよびルールの一部を更新
 - (2025.6.10)　部屋名，家具名，物体名の命名規則．練習問題の公開．（挑戦なしにおける）命令文章の文法を明確．物体認識，命令文章の解析の採点について．Layoutの家具名を修正．

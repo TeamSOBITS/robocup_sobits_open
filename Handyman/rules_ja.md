@@ -1,7 +1,7 @@
 > [!WARNING]
 > Rulesは今後更新される可能性があります．
 
-## **Handyman Rules for RCSO2025**
+## **Handyman Rules for RCSO2026**
 
 RoboCup Simulation Leagueで行われた競技の1つであるHandymanタスクについて説明していきます．
 
@@ -21,7 +21,7 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
 - 本競技は，1人3セッション挑戦することができ，3セッションの総合得点で順位を決めます．
 - 実機と違い，タスクのスキップ等はできません．
 - 競技開始後，セッション中に動作しなくなった場合はそのセッションをスキップし，次セッションから再起動できます
-- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md)，や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/object_list.md)は，事前に公開しているので，ご確認ください．
+- [環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2026_srl/Handyman/layout_and_location_list.md)，や[把持物体リスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2026_srl/Handyman/object_list.md)は，事前に公開しているので，ご確認ください．
 - 制限時間は各セッション600秒です．
 
 ### 2. 競技手順(Handyman)
@@ -101,7 +101,7 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
     <tr>
       <td>物体を指定場所へ運搬</td>
       <td>10点</td>
-      <td>ランダムな位置にいる人に手渡し※2</td>
+      <td>抽象的な要求への対応※2</td>
       <td>30点</td>
     </tr>
     <tr>
@@ -119,8 +119,8 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
   </tbody>
 </table>
 
-- ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2025_srl/Handyman/layout_and_location_list.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
-- ※2：人がいる部屋は，命令文の中で明示されます．また，手渡し動作の判定の範囲については[こちら(物体の運搬動作)](https://github.com/RoboCupAtHomeJP/AtHome2025/blob/main/rules/S-OPL/hm_ja.md#%E7%89%A9%E4%BD%93%E3%81%AE%E9%81%8B%E6%90%AC%E5%8B%95%E4%BD%9C)を参照してください．
+- ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2026_srl/Handyman/layout_and_location_list.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
+- ※2：命令文に物体名は明示されません．命令文では探索する部屋，または家具・場所が指定され，ロボットは意味的または機能的な説明に合う物体を選択します．正解となる対象物体は，公開されている把持物体リストと運営内部の審判基準に基づいて判定します．公平性のために必要な場合を除き，カテゴリと物体の完全な対応表は公開しません．この挑戦課題は，物体名の直接的な文字列解析を超えた意味理解を評価します．
 - ※3：セッション切り替えはセッション2と3のみで挑戦できます.
 - ※4：セッション切り替え後に点数が入らなかった場合，SIGVerse側で「I_am_ready」が受信できているか確認できた場合に，点数が入ります．
 
@@ -144,6 +144,22 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
     - grasp：pick up, get 等
     - put：locate, place, move 等
 
+- 抽象的な要求への対応（挑戦課題）
+  - 命令文では，対象物体の名前が直接与えられません．
+  - 探索する部屋，または家具・場所は命令文の中で指定されます．
+  - ロボットは，意味的または機能的な説明に合う物体を判断して選択する必要があります．
+    <details>
+      <summary>例を表示する</summary>
+
+      - Go to the kitchen and bring me something to drink.
+      - Go to the living_room and bring me something to read.
+      - Pick up something used for cleaning from the white_table and put it on the kitchen_counter.
+
+    </details>
+  - 正解となる対象物体は，公開されている把持物体リストと運営内部の審判基準に基づいて判定します．
+  - 公平性のために必要な場合を除き，カテゴリと物体の完全な対応表は公開しません．
+  - 本挑戦課題では，物体名の直接的な文字列解析を超えた意味理解を評価します．
+
 - 現在のSIGVerse採点システムでは，以下の採点項目を考慮していないため，得点するには追加処理をする必要があります．
   - 命令文章の解析
     - 与えられた命令文章を解析していることをlogに示してください．
@@ -162,7 +178,7 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
     - その画像で成功を判断し，点数を獲得します．
 - 挑戦課題について，どのセッションでどの挑戦課題に挑戦するかを選ぶことができます．
   - 例：
-    - 1セッション目：「二つ目のmapで指定された部屋へ移動」と「ランダムな位置にいる人に手渡し」に挑戦
+    - 1セッション目：「二つ目のmapで指定された部屋へ移動」と「抽象的な要求への対応」に挑戦
     - 2セッション目：「透明物体の認識」のみに挑戦
     - 3セッション目：挑戦なし
 > [!CAUTION]
