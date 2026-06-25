@@ -31,7 +31,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 ## 参加登録
 
-本大会に参加を希望する場合は，事前に[こちらのGoogleフォーム](https://forms.gle/QwcGNy3oaQFD8rS17)を入力してください．\
+本大会に参加を希望する場合は，事前に[こちらのGoogleフォーム](https://docs.google.com/forms/d/e/1FAIpQLScpUxzmwVnLcg4iPa1CsAIytzraYlxX2kG6d1HTPdhNbky47Q/viewform)を入力してください．\
 創価大学生以外の参加登録に関しては，はじめの質問にて学外であることを教えていただければと思います．\
 
 **参加登録締切** : 2026年7月24日（金）
