@@ -102,7 +102,7 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
       <td>物体を指定場所へ運搬</td>
       <td>10点</td>
       <td>抽象的な要求への対応※2</td>
-      <td>30点</td>
+      <td>最大50点</td>
     </tr>
     <tr>
       <td>物体を指定場所に配置</td>
@@ -114,13 +114,17 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
       <td><strong>合計</strong></td>
       <td><strong>100点</strong></td>
       <td></td>
-      <td><strong>180点</strong></td>
+      <td><strong>150点</strong></td>
+    </tr>
+    <tr>
+      <td><strong>総合最大点</strong></td>
+      <td colspan="3"><strong>250点</strong></td>
     </tr>
   </tbody>
 </table>
 
 - ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2026_srl/Handyman/layout_and_location_list.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
-- ※2：命令文に物体名は明示されません．命令文では探索する部屋，または家具・場所が指定され，ロボットは意味的または機能的な説明に合う物体を選択します．正解となる対象物体は，公開されている把持物体リストと運営内部の審判基準に基づいて判定します．公平性のために必要な場合を除き，カテゴリと物体の完全な対応表は公開しません．この挑戦課題は，物体名の直接的な文字列解析を超えた意味理解を評価します．
+- ※2：命令文に物体名は明示されません．命令文では探索する部屋，または家具・場所が毎回指定され，ロボットはカテゴリ名，意味的な説明，機能，属性，状態などに合う物体を選択します．Level 2（カテゴリ名が命令文に含まれる場合）は30点，Level 3（機能・属性・状態などで表現される場合）は50点とします．正解となる対象物体は，公開されている把持物体リストと運営内部の審判基準に基づいて判定します．カテゴリ名は公開しますが，カテゴリと物体の完全な対応表は公開しません．この挑戦課題は，物体名の直接的な文字列解析を超えた意味理解を評価します．
 - ※3：セッション切り替えはセッション2と3のみで挑戦できます.
 - ※4：セッション切り替え後に点数が入らなかった場合，SIGVerse側で「I_am_ready」が受信できているか確認できた場合に，点数が入ります．
 
@@ -139,26 +143,43 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
 
 - 命令文章の文法（挑戦なしの場合）
   - `Go to the (ROOM_1), grasp the (OBJECT) on the (FURNITURE_1) and put it on the (FURNITURE_2) in the (ROOM_2).`
+  - 部屋名，家具名，配置先は，[環境レイアウトと把持・配置地点のリスト](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2026_srl/Handyman/layout_and_location_list.md)に従います．
   - 動詞は固定されておらず，以下のような類義語に置き換えられることがあります．
     - Go：Navigate, Move 等
     - grasp：pick up, get 等
-    - put：locate, place, move 等
+    - put：place 等
 
 - 抽象的な要求への対応（挑戦課題）
   - 命令文では，対象物体の名前が直接与えられません．
-  - 探索する部屋，または家具・場所は命令文の中で指定されます．
-  - ロボットは，意味的または機能的な説明に合う物体を判断して選択する必要があります．
+  - 探索する部屋，家具・場所，配置先は命令文の中で毎回指定されます．
+  - ロボットは，カテゴリ名，意味的な説明，機能，属性，状態などに合う物体を判断して選択する必要があります．
+  - 抽象的な要求への対応では，以下のカテゴリ名を使用する場合があります．
+    - Drink
+    - Condiment
+    - Container
+    - Toy
+    - Household
+    - Game
+  - カテゴリ名を用いる場合は，`a drink`や`a toy`のように命令文にカテゴリ名が含まれます．
+  - 機能・属性・状態を用いる場合は，カテゴリ名を命令文に含めません．
     <details>
       <summary>例を表示する</summary>
 
-      - Go to the kitchen and bring me something to drink.
-      - Go to the living_room and bring me something to read.
-      - Pick up something used for cleaning from the white_table and put it on the kitchen_counter.
+      - Go to the kitchen, grasp a drink on the dining_table and put it on the round_low_table in the living_room.
+      - Go to the lobby, grasp a toy on the corner_sofa and put it on the wooden_bed in the bedroom.
+      - Go to the lobby, grasp something used for cleaning on the wooden_shelf and put it on the wagon in the lobby.
+      - Go to the kitchen, grasp the bottle that still has drink inside on the dining_table and put it on the square_low_table in the living_room.
 
     </details>
   - 正解となる対象物体は，公開されている把持物体リストと運営内部の審判基準に基づいて判定します．
-  - 公平性のために必要な場合を除き，カテゴリと物体の完全な対応表は公開しません．
+  - カテゴリ名は公開しますが，公平性のために必要な場合を除き，カテゴリと物体の完全な対応表は公開しません．
   - 本挑戦課題では，物体名の直接的な文字列解析を超えた意味理解を評価します．
+
+- 問題の難易度
+  - Level 1：物体名が命令文に直接含まれる通常の問題です．抽象的な要求への対応の点数は入りません．
+  - Level 2：カテゴリ名が命令文に含まれる問題です．抽象的な要求への対応として30点の対象になります．
+  - Level 3：カテゴリ名を含めず，機能・属性・状態などで物体を表現する問題です．抽象的な要求への対応として50点の対象になります．
+  - Level 3の問題は，透明物体や二つ目のmapなど，他の挑戦課題と組み合わせて出題される場合があります．
 
 - 現在のSIGVerse採点システムでは，以下の採点項目を考慮していないため，得点するには追加処理をする必要があります．
   - 命令文章の解析
@@ -176,6 +197,9 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
       - **バウンディングボックス**
       - **物体名**
     - その画像で成功を判断し，点数を獲得します．
+  - 抽象的な要求への対応
+    - Level 2とLevel 3では，SIGVerse上の自動採点は運営が設定した想定正解物体名に基づいて行われます．
+    - カテゴリ名や機能表現に対して適切な物体を選択できているかは，ロボットのlogと物体認識画像をもとに審判が確認します．
 - 挑戦課題について，どのセッションでどの挑戦課題に挑戦するかを選ぶことができます．
   - 例：
     - 1セッション目：「二つ目のmapで指定された部屋へ移動」と「抽象的な要求への対応」に挑戦
