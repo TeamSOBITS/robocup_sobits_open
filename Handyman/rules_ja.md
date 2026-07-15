@@ -160,26 +160,23 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
     - Toy
     - Household
     - Game
-  - カテゴリ名を用いる場合は，`a drink`や`a toy`のように命令文にカテゴリ名が含まれます．
-  - 機能・属性・状態を用いる場合は，カテゴリ名を命令文に含めません．
+  - Level 1：物体名が命令文に直接含まれる通常の問題です．抽象的な要求への対応の点数は入りません．
+  - Level 2：`a drink`や`a toy`のように，カテゴリ名が命令文に含まれる問題です．抽象的な要求への対応として30点の対象になります．
+  - Level 3：カテゴリ名を含めず，機能・属性・状態などで物体を表現する問題です．抽象的な要求への対応として50点の対象になります．
     <details>
       <summary>例を表示する</summary>
 
-      - Go to the kitchen, grasp a drink on the dining_table and put it on the round_low_table in the living_room.
-      - Go to the lobby, grasp a toy on the corner_sofa and put it on the wooden_bed in the bedroom.
-      - Go to the lobby, grasp something used for cleaning on the wooden_shelf and put it on the wagon in the lobby.
-      - Go to the kitchen, grasp the bottle that still has drink inside on the dining_table and put it on the square_low_table in the living_room.
+      - Level 1（抽象点なし）：Go to the kitchen, grasp the canned_juice on the dining_table and put it on the square_low_table in the living_room.
+      - Level 2（カテゴリ名・30点）：Go to the kitchen, grasp a drink on the dining_table and put it on the round_low_table in the living_room.
+      - Level 2（カテゴリ名・30点）：Go to the lobby, grasp a toy on the corner_sofa and put it on the wooden_bed in the bedroom.
+      - Level 3（機能・属性・状態・50点）：Go to the lobby, grasp something used for cleaning on the wooden_shelf and put it on the wagon in the lobby.
+      - Level 3（機能・属性・状態・50点）：Go to the kitchen, grasp the bottle that still has drink inside on the dining_table and put it on the square_low_table in the living_room.
 
     </details>
   - 正解となる対象物体は，公開されている把持物体リストと運営内部の審判基準に基づいて判定します．
   - カテゴリ名は公開しますが，公平性のために必要な場合を除き，カテゴリと物体の完全な対応表は公開しません．
   - 本挑戦課題では，物体名の直接的な文字列解析を超えた意味理解を評価します．
-
-- 問題の難易度
-  - Level 1：物体名が命令文に直接含まれる通常の問題です．抽象的な要求への対応の点数は入りません．
-  - Level 2：カテゴリ名が命令文に含まれる問題です．抽象的な要求への対応として30点の対象になります．
-  - Level 3：カテゴリ名を含めず，機能・属性・状態などで物体を表現する問題です．抽象的な要求への対応として50点の対象になります．
-  - Level 3の問題は，透明物体や二つ目のmapなど，他の挑戦課題と組み合わせて出題される場合があります．
+  - 参加者が「抽象的な要求への対応」と他の挑戦課題を同じセッションで選択した場合，Level 2またはLevel 3の命令文に，透明物体や二つ目のmapなどの条件が組み合わされる場合があります．
 
 - 現在のSIGVerse採点システムでは，以下の採点項目を考慮していないため，得点するには追加処理をする必要があります．
   - 命令文章の解析
