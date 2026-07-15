@@ -56,7 +56,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 - [環境セットアップ](Handyman/setup.md)
 - [環境レイアウトと把持・配置地点のリスト](Handyman/layout_and_location_list.md)
 - [把持物体リスト](Handyman/object_list.md)
-- [練習問題](https://drive.google.com/drive/folders/1SWfb7NuYQMf4eMNAOcCy9lm2-Bk9tO0o?usp=sharing)
+- [練習問題](Handyman/hint.md#練習問題で練習しましょう)
 - [コード提出について](submission.md)
 - [Q&A](Handyman/q_and_a_ja.md)
 - スコアシート（2026年度版は更新予定．現在の点数表は[Handyman Rules for RCSO2026](Handyman/rules_ja.md#3-競技の点数表handyman)を参照してください）

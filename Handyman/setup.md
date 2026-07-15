@@ -15,12 +15,12 @@ ROS 2 を実行するPCと，Windows側のSIGVerseシミュレータがネット
 推奨バージョンは以下の通りです．
 | System  | Version |
 | --- | --- |
-| Ubuntu | 22.04 (Jammy Jellyfish) |
-| ROS    | Humble Hawksbill |
+| Ubuntu | 24.04 (Noble Numbat) |
+| ROS    | Jazzy Jalisco |
 
 ### SIGVerse環境設定
 SIGVerseは，Unity上で動くシミュレーション環境です．Unityをインストールした上で，SIGVerse環境をセットアップしてください．
-- [SIGVerse環境とROS2 HumbleでHSRを動かすためのセットアップ方法](https://esa-pages.io/p/sharing/19758/posts/108/5ee40954d9b18a8cd0ea.html)
+- [SIGVerse環境とROS2 JazzyでHSRを動かすためのセットアップ方法](https://sobits.esa.io/posts/119)
 
 ### 競技環境レイアウト設定
 Handymanをはじめ，レイアウト，物体の位置などを変更したい場合は，SIGVerseConfigを変更する必要があります．以下のリンクは，その仕方について述べます．
