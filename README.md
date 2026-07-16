@@ -31,14 +31,16 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 
 ## 参加登録
 
-本大会に参加を希望する場合は，事前に[こちらのGoogleフォーム](https://docs.google.com/forms/d/e/1FAIpQLScpUxzmwVnLcg4iPa1CsAIytzraYlxX2kG6d1HTPdhNbky47Q/viewform)を入力してください．\
+本大会に参加を希望する場合は，事前に[こちらのGoogleフォーム](https://forms.gle/JzZ7Cx9FRev4opux9)を入力してください．\
 創価大学生以外の参加登録に関しては，はじめの質問にて学外であることを教えていただければと思います．\
 
 **参加登録締切** : 2026年7月24日（金）
 
 ## RoboCup SOBITS OPENに関する各種資料
 
-競技に関するスライドは[こちら](RCSO25_in_summer_slides.pdf)にあります．
+競技に関するスライドは[こちら](docs/RCSO26_in_summer_slides.pdf)にあります．
+
+練習問題は[こちら](https://drive.google.com/drive/folders/1S08WklyE03A52W51abjLyT1duVhWl1MA?usp=share_link)にあります．
 
 また，競技の様子がわかるデモ動画は，[こちら](https://drive.google.com/file/d/1gMKeu-P3OFKFWy6-7lqwjCxsmvTNjv6x/view?usp=sharing)にありますので，参考にしてください．
 この動画は過去のもので一例となります．本大会に詳しいルールを確認してください．\
@@ -64,6 +66,7 @@ B3生以外の方の競技会への参加は任意ですので，参加したい
 ---
 
 ## 追記情報・変更履歴
+- (2026.7.16)　RCSO2026の競技スライドと練習問題のリンクを公開
 - (2026.6.23)　RCSO2026ブランチ作成．大会開催情報とHandyman Rulesを2026年度版の草案として更新
 - (2025.5.13)　RCSO2025ブランチ作成 
 - (2025.5.15)　競技環境，地点名リスト，物体リストを公開．また，環境セットアップに関するヒントおよびルールの一部を更新
