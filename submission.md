@@ -8,11 +8,12 @@
   - SOBITS Member
     - NASサーバの以下の場所に，上記の命名規則に従って個人名のフォルダを作成しアップロードしてください
       ```
-      /volume1/Competition/RoboCup/RCSO26_summer/code_submission/
+      File Stationを開いて
+      /Competition/RoboCup/RCSO26_summer/code_submission/
       ```
   - Non-SOBITS Member
     - 以下の場所に上記の命名規則に従って個人名のフォルダを作成しアップロードしてください
-    - [Google Drive](https://drive.google.com/drive/folders/1vQnFhOIUnWCowvAcNo7Xj7TIZfP78C9e?usp=drive_link)
+    - [Google Drive](https://drive.google.com/drive/folders/16-2CNTe4BIm2ywas3a2i9E2bVHRrhGAf?usp=share_link)
 - 提出物：
   - メイン（パッケージ or コード）＋ 工夫したプログラム*
     - *SOBITSパッケージ以外のもので使用したもの
@@ -28,7 +29,7 @@
 > 提出されたコードは採点され工夫点が入ることがあります
 
 # 挑戦課題の選択について
-[こちらのフォーム](https://forms.gle/zm5XFFRtaC138ggz9)から，競技本番でどのセッションでどの挑戦課題に挑戦するか選択してください．
+[こちらのフォーム](https://forms.gle/b7Bwsriy51D3dXo49)から，競技本番でどのセッションでどの挑戦課題に挑戦するか選択してください．
 
 提出期限
 ・**8/6(木)7:00まで**
