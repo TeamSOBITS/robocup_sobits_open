@@ -147,7 +147,7 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
   - 動詞は固定されておらず，以下のような類義語に置き換えられることがあります．
     - Go：Navigate, Move 等
     - grasp：pick up, get 等
-    - put：place 等
+    - put：locate, place, move 等
 
 - 抽象的な要求への対応（挑戦課題）
   - 命令文では，対象物体の名前が直接与えられません．
