@@ -95,14 +95,14 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
     <tr>
       <td>指定された物体の把持</td>
       <td>30点</td>
-      <td>-</td>
-      <td>-</td>
+      <td>抽象的な要求への対応 Lv2・Lv3※2</td>
+      <td>40点・50点</td>
     </tr>
     <tr>
       <td>物体を指定場所へ運搬</td>
       <td>10点</td>
-      <td>抽象的な要求への対応※2</td>
-      <td>最大50点</td>
+      <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <td>物体を指定場所に配置</td>
@@ -124,7 +124,7 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
 </table>
 
 - ※1：3セッションのうち，1セッションのみで2つ目のマップが使用されます．挑戦課題のレイアウトについては[Layout2019HM02](https://github.com/TeamSOBITS/robocup_sobits_open/blob/rcso_2026_srl/Handyman/layout_and_location_list.md#layout2019hm02-%E6%8C%91%E6%88%A6%E8%AA%B2%E9%A1%8C)をご参照ください．
-- ※2：命令文に物体名は明示されません．命令文では探索する部屋，または家具・場所が毎回指定され，ロボットはカテゴリ名，意味的な説明，機能，属性，状態などに合う物体を選択します．Level 2（カテゴリ名が命令文に含まれる場合）は30点，Level 3（機能・属性・状態などで表現される場合）は50点とします．正解となる対象物体は，公開されている把持物体リストと運営内部の審判基準に基づいて判定します．カテゴリ名は公開しますが，カテゴリと物体の完全な対応表は公開しません．この挑戦課題は，物体名の直接的な文字列解析を超えた意味理解を評価します．
+- ※2：命令文に物体名は明示されません．命令文では探索する部屋，または家具・場所が毎回指定され，ロボットはカテゴリ名，意味的な説明，機能，属性，状態などに合う物体を選択します．Level 2（カテゴリ名が命令文に含まれる場合）は40点，Level 3（機能・属性・状態などで表現される場合）は50点とします．正解となる対象物体は，公開されている把持物体リストと運営内部の審判基準に基づいて判定します．カテゴリ名は公開しますが，カテゴリと物体の完全な対応表は公開しません．この挑戦課題は，物体名の直接的な文字列解析を超えた意味理解を評価します．
 - ※3：セッション切り替えはセッション2と3のみで挑戦できます.
 - ※4：セッション切り替え後に点数が入らなかった場合，SIGVerse側で「I_am_ready」が受信できているか確認できた場合に，点数が入ります．
 
@@ -161,14 +161,14 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
     - Household
     - Game
   - Level 1：物体名が命令文に直接含まれる通常の問題です．抽象的な要求への対応の点数は入りません．
-  - Level 2：`a drink`や`a toy`のように，カテゴリ名が命令文に含まれる問題です．抽象的な要求への対応として30点の対象になります．
+  - Level 2：`a drink`や`a toy`のように，カテゴリ名が命令文に含まれる問題です．抽象的な要求への対応として40点の対象になります．
   - Level 3：カテゴリ名を含めず，機能・属性・状態などで物体を表現する問題です．抽象的な要求への対応として50点の対象になります．
     <details>
       <summary>例を表示する</summary>
 
       - Level 1（抽象点なし）：Go to the kitchen, grasp the canned_juice on the dining_table and put it on the square_low_table in the living_room.
-      - Level 2（カテゴリ名・30点）：Go to the kitchen, grasp a drink on the dining_table and put it on the round_low_table in the living_room.
-      - Level 2（カテゴリ名・30点）：Go to the lobby, grasp a toy on the corner_sofa and put it on the wooden_bed in the bedroom.
+      - Level 2（カテゴリ名・40点）：Go to the kitchen, grasp a drink on the dining_table and put it on the round_low_table in the living_room.
+      - Level 2（カテゴリ名・40点）：Go to the lobby, grasp a toy on the corner_sofa and put it on the wooden_bed in the bedroom.
       - Level 3（機能・属性・状態・50点）：Go to the lobby, grasp something used for cleaning on the wooden_shelf and put it on the wagon in the lobby.
       - Level 3（機能・属性・状態・50点）：Go to the kitchen, grasp the bottle that still has drink inside on the dining_table and put it on the square_low_table in the living_room.
 
@@ -196,7 +196,8 @@ Handymanタスクでは，与えられた命令文を解析し，ロボットが
     - その画像で成功を判断し，点数を獲得します．
   - 抽象的な要求への対応
     - Level 2とLevel 3では，SIGVerse上の自動採点は運営が設定した想定正解物体名に基づいて行われます．
-    - カテゴリ名や機能表現に対して適切な物体を選択できているかは，ロボットのlogと物体認識画像をもとに審判が確認します．
+    - カテゴリ名や機能表現に対して適切な物体を選択し，把持できているかは，ロボットのlogと物体認識画像をもとに審判が確認します．
+    - 抽象的な要求への対応の挑戦点は，適切な対象物体を選択し，把持できた時点で加点対象になります．運搬および配置については，基準点の「物体を指定場所へ運搬」「物体を指定場所に配置」の項目で別途採点します．
     - そのため，適切な物体を把持した場合でも，SIGVerse上では「Task_failed」と表示される場合があります．この場合も，審判がlogと物体認識画像を確認して手動で採点します．ロボットは「Task_failed」を受信した場合でも，次のセッションへ進めるようにしてください．
 - 挑戦課題について，どのセッションでどの挑戦課題に挑戦するかを選ぶことができます．
   - 例：
