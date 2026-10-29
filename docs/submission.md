@@ -12,7 +12,7 @@
       ```
   - Non-SOBITS Member
     - 以下の場所に上記の命名規則に従って個人名のフォルダを作成しアップロードしてください
-    - [Google Drive]()
+    - [Google Drive](https://drive.google.com/drive/folders/1VqAho4ebYvJogropaX2FDy_J-E3XPQ6q?usp=drive_link)
 - 提出物：
   - メイン（パッケージ or コード）＋ 工夫したプログラム*
     - 工夫したプログラム：**SOBITSパッケージ以外(あれば)**で使用したもの
